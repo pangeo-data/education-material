@@ -36,3 +36,8 @@ local.to_netcdf('local.nc')    # reducing 250MB in five files to 30kb in one fil
 
 # Notes on Damien's [Python AOS Alpha](https://carpentrieslab.github.io/python-aos-lesson/)
 
+## Links
+
+* Damien Irving's [Python Atmosphere and Ocean Sciences Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
+(Software Carpentry, raster emphasis)]
+* Description of the [Python Climate/Weather Stack](https://drclimate.wordpress.com/2016/10/04/the-weatherclimate-python-stack/)

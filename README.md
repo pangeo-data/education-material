@@ -1,6 +1,8 @@
 # Education Material
 
-This meta-repository is (for now) just a place for everyone in the Pangeo community to place pointers to and descriptions of existing educational material for learning or using the Pangeo platform, software ecosystem, deployments, and related technology.
+This repository is a place for everyone in the Pangeo community to place pointers to and descriptions of existing educational material for learning or using the Pangeo platform, software ecosystem, deployments, and related technology
+[.](http://github.com/robfatland/ops) It continues into sub-folders with commentary and notes on where and how pangeo education
+can be effective. 
 
 | Location | Description |
 | -------- | ----------- |

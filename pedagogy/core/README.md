@@ -6,7 +6,7 @@ Ideas and notes on learning Python for geoscience... what is essential?
 
 * Damien Irving's [Python Atmosphere and Ocean Sciences Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
 (Software Carpentry, raster emphasis)]
-* [My notes on running through Damien's lessons](http://github.com/pangeo-data/education-material/pedagogy/README.md)
+  * [My notes on running through Damien's lessons](https://github.com/pangeo-data/education-material/tree/master/pedagogy)
 * Description of the [Python Climate/Weather Stack](https://drclimate.wordpress.com/2016/10/04/the-weatherclimate-python-stack/)
 
 

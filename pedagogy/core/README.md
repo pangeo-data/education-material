@@ -1,8 +1,8 @@
 # core
 
-Additional ideas and notes on learning Python for geoscience. 
+Ideas and notes on learning Python for geoscience... what is essential? 
 
-## Stuff that I find particularly frustrating (unsorted grumbling)
+## Stuff I find frustrating (unsorted grumbling)
 
 ### Theme: How do I know what's expected versus what is aberrant? Then how do I debug?
 - Being polemical again: Seeing 'this is how you do X in Python' is step one (only) of about five steps
@@ -10,10 +10,12 @@ needed to make it useful. The additional steps include 'Suppose this is not work
 debugging it?'
 - Anecdotal: I download :( raw 0.1deg MODIS Chlorophyll-A data from **NEO** and go to considerable 
 length to extract a small spatial subset; with further gymnastics to consolidate `n` source images into a single 
-Dataset with a `time` dimension... and then it has the gall to be ludicrously slow. Then I save the Dataset 
-to a file, read it back in and it responds quickly as it should. The insidious problem is that if I do not 
-*know* that it should be quick then I start curtailing my exploration of the data based on my patience. And
-along related lines: How do I avoid bad patterns, 'worst practices'?
+Dataset with a `time` dimension... so far so good... and then subsequent operations on the Dataset are ludicrously
+slow. 
+- I save this small Dataset to a file using `.to_netcdf()` and then open that file; now the Dataset responds 
+instantly as it should. 
+- The insidious problem is that if I do not *know* that it should respond fast I am in danger of accepting 'it is slow'
+as the norm; so I curtail my exploration of the data based on my patience. 
 
 
 ```
@@ -36,6 +38,19 @@ for i in range(21):
 local.to_netcdf('local.nc')    # reducing 250MB in five files to 30kb in one file, forsooth
 
 ```
+
+### Theme: 'Best practices' is a nice phrase... but maybe tell me how do I avoid 'worst practices'
+
+- Some older code that I wrote created a variable called `sum` so that when I subsequently discovered 
+there is a Python function `sum()` and I tried to use it I got an error message `integer is not callable`. 
+- There is some sort of namespace clobber term for this which I don't know; but that is how a clueless
+programming step obscured a useful function; and the real crime is how many minutes it took me to figure
+this out. 
+- That is, on behalf of all the impatient people out there who don't bother to learn Python from the 
+ground up (and I think a lot of us are coming from another programming language) there is a need for 
+a big ***Stop Sign*** that makes the case for developing an accurate model-plus-vocabulary for talking
+about Python. 
+
 
 # Notes on Damien's [Python AOS Alpha](https://carpentrieslab.github.io/python-aos-lesson/)
 

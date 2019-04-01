@@ -2,7 +2,15 @@
 
 Ideas and notes on learning Python for geoscience... what is essential? 
 
-## Stuff I find frustrating (unsorted grumbling)
+## Links
+
+* Damien Irving's [Python Atmosphere and Ocean Sciences Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
+(Software Carpentry, raster emphasis)]
+* [My notes on running through Damien's lessons](http://github.com/pangeo-data/education-material/pedagogy/README.md)
+* Description of the [Python Climate/Weather Stack](https://drclimate.wordpress.com/2016/10/04/the-weatherclimate-python-stack/)
+
+
+## Frustrations (unsorted grumbling)
 
 ### Theme: How do I know what's expected versus what is aberrant? Then how do I debug?
 - Being polemical again: Seeing 'this is how you do X in Python' is step one (only) of about five steps
@@ -13,7 +21,8 @@ length to extract a small spatial subset; with further gymnastics to consolidate
 Dataset with a `time` dimension... so far so good... and then subsequent operations on the Dataset are ludicrously
 slow. 
 - I save this small Dataset to a file using `.to_netcdf()` and then open that file; now the Dataset responds 
-instantly as it should. 
+instantly as it should.
+- I had an earlier version of this experience where `.load()` was a solution.
 - The insidious problem is that if I do not *know* that it should respond fast I am in danger of accepting 'it is slow'
 as the norm; so I curtail my exploration of the data based on my patience. 
 
@@ -52,10 +61,5 @@ a big ***Stop Sign*** that makes the case for developing an accurate model-plus-
 about Python. 
 
 
-# Notes on Damien's [Python AOS Alpha](https://carpentrieslab.github.io/python-aos-lesson/)
 
-## Links
 
-* Damien Irving's [Python Atmosphere and Ocean Sciences Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
-(Software Carpentry, raster emphasis)]
-* Description of the [Python Climate/Weather Stack](https://drclimate.wordpress.com/2016/10/04/the-weatherclimate-python-stack/)

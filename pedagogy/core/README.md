@@ -10,7 +10,7 @@ needed to make it useful. The additional steps include 'Suppose this is not work
 debugging it?'
 - Anecdotal: I download :( raw 0.1deg MODIS Chlorophyll-A data from **NEO** and go to considerable 
 length to extract a small spatial subset; with further gymnastics to consolidate `n` source images into a single 
-Dataset with a `time` dimension... and then it has the gall to be ludicrously slow. For example: I save the Dataset 
+Dataset with a `time` dimension... and then it has the gall to be ludicrously slow. Then I save the Dataset 
 to a file, read it back in and it responds quickly as it should. The insidious problem is that if I do not 
 *know* that it should be quick then I start curtailing my exploration of the data based on my patience. And
 along related lines: How do I avoid bad patterns, 'worst practices'?

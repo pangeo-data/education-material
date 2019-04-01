@@ -4,10 +4,13 @@ Additional ideas and notes on learning Python for geoscience.
 
 ## Stuff that I find particularly frustrating (unsorted grumbling)
 
-- I download :( raw 0.1deg MODIS Chlorophyll-A data from **NEO** and go to considerable 
+### Theme: How do I know what's expected versus what is aberrant? Then how do I debug?
+- Being polemical again: Seeing 'this is how you do X in Python' is step one (only) of about five steps
+needed to make it useful. The additional steps include 'Suppose this is not working; how do we approach
+debugging it?'
+- Anecdotal: I download :( raw 0.1deg MODIS Chlorophyll-A data from **NEO** and go to considerable 
 length to extract a small spatial subset; with further gymnastics to consolidate `n` source images into a single 
-Dataset with a `time` dimension... and then it has the gall to be ludicrously slow. ***The theme here is how 
-do I know what's expected versus what is aberrant? And then how do I debug??*** For example: I save the Dataset 
+Dataset with a `time` dimension... and then it has the gall to be ludicrously slow. For example: I save the Dataset 
 to a file, read it back in and it responds quickly as it should. The insidious problem is that if I do not 
 *know* that it should be quick then I start curtailing my exploration of the data based on my patience. And
 along related lines: How do I avoid bad patterns, 'worst practices'?

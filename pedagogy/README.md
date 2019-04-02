@@ -2,7 +2,7 @@ This README file is set in stone and none of its content is negotiable for all t
 
 # pedagogy
 
-## notes on Damien's AOS Python SC lesson
+## notes on [Damien's AOS Python SC lesson](https://carpentrieslab.github.io/python-aos-lesson/)
 
 ### Lesson 1 
 - Creating an environment by referring to Anaconda username is great; but suggest pre-load with "you will need an Anaconda username"

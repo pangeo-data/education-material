@@ -32,6 +32,13 @@ the opportunity to recommend some good practices for you to adopt.
 
 ***And so on: More questions...***
 
-With cool answers: The interested participant is invited to expand this. My suggestion is the Q/As
+With cool answers: The interested participant is invited to expand this. My suggestion is the Q/As stay brief
+and jaunty and we can put deeper stuff in other locations as needed.
 
-***Need one on organization versus individual; and membership; and public versus private; and joining a pangeo JHub thereby...***
+***What is a GitHub User?***
+
+***What is a GitHub Organization?***
+
+***What is Public versus Private on GitHub?***
+
+***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***

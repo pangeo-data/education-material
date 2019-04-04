@@ -1,3 +1,9 @@
+> In teaching someone about COM programming, it would be nice if I could just teach them how to use 
+> the Visual Studio wizards and all the code generation features, but if anything goes wrong, they 
+> will not have the vaguest idea what happened or how to debug it and recover from it. I’m going 
+> to have to teach them all about IUnknown and CLSIDs and ProgIDS and … oh, the humanity!
+- Joel Spolsky, on the [Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+
 # Education Material
 
 This repository is a place for everyone in the Pangeo community to place pointers to and descriptions of existing educational material for learning or using the Pangeo platform, software ecosystem, deployments, and related technology

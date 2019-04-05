@@ -35,6 +35,32 @@ the opportunity to recommend some good practices for you to adopt.
 With cool answers: The interested participant is invited to expand this. My suggestion is the Q/As stay brief
 and jaunty and we can put deeper stuff in other locations as needed.
 
+***How do I clone a repository?***
+
+`git clone http://github.com/someuser/somerepo.git` will create a folder on your machine called `somerepo` which
+is a file-by-file copy of the repository as hosted at GitHub. 
+
+***Any caveats on this?***
+
+Good question. There is a cool feature of `git` that does create a caveat. Quoting: 
+
+> Git allows you to include other Git repositories called submodules into a repository. ... Git allows 
+you to commit, pull and push to these repositories independently. Submodules allow you to keep projects 
+in separate repositories but still be able to reference them as folders in the working directory of 
+other repositories.
+
+from 
+[Using submodules in git, a tutorial from Vogella](https://www.vogella.com/tutorials/GitSubmodules/article.html)
+
+...so the caveat is that in a potential submodule situation you `cd` to the new repository directory -- the one
+you just cloned -- and issue the `git` command
+
+```git submodule update --init --recursive```
+
+Furthermore notice this creates an implicit dependency: If your repository has a dependency on a submodule and
+if they are not in synch you have a potential breakdown issue. 
+
+
 ***What is a GitHub User?***
 
 ***What is a GitHub Organization?***

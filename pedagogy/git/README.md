@@ -1,6 +1,6 @@
 # git and GitHub 
 
-## The top 40 things you need to know about the pangeo approach to source control
+## Top 40 things to know about the pangeo approach to source control
 
 ***Why do I care about `git`?***
 
@@ -27,23 +27,24 @@ we recommend investing some time in one of these learning paths and putting what
 
 ***Why is there a `git` section in pangeo?***
 
-We want to make sure you understand how `git` and `GitHub` are built into the pangeo framework. This also gives us
-the opportunity to recommend some good practices for you to adopt. 
+We want to establish how `git` and `GitHub` are built into the pangeo framework. This also gives us
+an opportunity to recommend good practices. 
 
 ***And so on: More questions...***
 
-With cool answers: The interested participant is invited to expand this. My suggestion is the Q/As stay brief
+With cool answers: The interested pangeophile is invited to expand this. My suggestion is the Q/As stay brief
 and jaunty and we can put deeper stuff in other locations as needed.
 
 ***Why do I care about GitHub?***
 
 > GitHub is a web-based hosting service for version control using Git ([Wikipedia](https://en.wikipedia.org/wiki/GitHub))
 
-It is currently the location of the pangeo code base distributed across multiple repositories. 
 There are two good reasons to value GitHub. First: Use of GitHub including many bonus features
 at the base or entry level is free. Second: If your laptop is eaten by a llama who then falls 
 into a volcano: You are out the cost of the laptop but your code is safely preserved on GitHub; 
-so you need not panic. 
+so you need not panic.
+
+The pangeo code base is distributed across multiple repositories at GitHub. 
 
 ***What is a GitHub User?***
 
@@ -60,6 +61,10 @@ A GitHub organization such as pangeo is a multi-participant version of a GitHub 
 ***What is Public versus Private on GitHub?***
 
 ***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***
+
+As a GitHub User your content may be public but you can still be contextually set to Private
+in an organization you belong to. So you probably got the 403 because Scott forgot to tell you that 
+you need to make your GitHub *membership* in the pangeo organization **public**. 
 
 ***Is GitHub -- as it seems -- a static entity; just a file system that stores older versions of itself?***
 
@@ -109,8 +114,8 @@ git push
 
 ***Is there a caveat to 'just use these four commands'?***
 
-Of course! Not knowing more about `git` will eventually -- almost certainly -- put you at risk of losing
-some of your work (or worse: losing someone else's work). Let's list a few of these risks.
+Yes! Not knowing more about `git` will eventually put you at risk of losing
+some work (yours or worse: someone else's). Let's list a few of these risks and mitigators...
 
 - a risk (and fix ref; where fix refs are picked up below)
 - a risk (and fix ref; where fix refs are picked up below)

@@ -2,6 +2,11 @@
 
 ## Top 40 things to know about the pangeo approach to source control
 
+If you are interested in how pangeo *works* as a technical framework: `git` is integral to the system
+and so you'll need to know a fair amount about it. If you are interested in using a pangeo system for
+research -- and never mind the underlying motors and gears -- then you will be fine with a working 
+familiarity with `git`. We provide the following FAQ-style overview to help you calibrate your `git` picture.
+
 ***Why do I care about `git`?***
 
 `git` is a Linux command (by definition since it was written by Linus *himself* in 2005) that does source control. 
@@ -50,15 +55,16 @@ The pangeo code base is distributed across multiple repositories at GitHub.
 
 A GitHub User is what you want to be! (if you buy into this whole open source / git business). It is a membership
 in GitHub that is free and requires you to establish a Username. Once you are a GitHub User you can start creating 
-repositories.
+repositories on GitHub. (You can create repositories on your own machines using the `git` command; GitHub need not be involved.)
 
 
 ***What is a GitHub Organization?***
 
-A GitHub organization such as pangeo is a multi-participant version of a GitHub User. 
+A GitHub organization such as pangeo is a multi-participant version of a GitHub User.  
 
 
 ***What is Public versus Private on GitHub?***
+
 
 ***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***
 
@@ -66,20 +72,28 @@ As a GitHub User your content may be public but you can still be contextually se
 in an organization you belong to. So you probably got the 403 because Scott forgot to tell you that 
 you need to make your GitHub *membership* in the pangeo organization **public**. 
 
-***Is GitHub -- as it seems -- a static entity; just a file system that stores older versions of itself?***
+***Is GitHub -- as it seems -- a static entity; like a file system that stores older versions of itself?***
 
-This question amounts to asking whether code at GitHub is in some sense 'runnable'. This is a very central
-feature of GitHub that we can just touch on here, starting with the ubiquitous `README.md` file. This file
-is a simple text file that uses Markdown (hence the file extension) to render text like this in a more
-helpful format. But this is only the tip of the iceberg as far as GitHub *executability*. 
+This question amounts to asking whether code at GitHub is ever *executable on GitHub*. Yes it is. And this 
+is a very central feature of GitHub that we just touch on here, beginning with the ubiquitous `README.md` 
+file. This file is text interpreted as Markdown (hence the `.md` file extension) that renders in a
+formatted and hopefully more readable manner. But this is only the tip of the iceberg as far as 
+GitHub *executability*. 
 
 
-***How do I clone a repository?***
+***Why and how do I clone a repository?***
 
-`git clone http://github.com/someuser/somerepo.git` will create a folder on your machine called `somerepo` which
-is a file-by-file copy of the repository as hosted at GitHub. 
+The basic use case is creating a local copy (clone) of a GitHub repo on your local machine where you can
+more readily modify and develop the content. From a suitable parent directly the command 
 
-***Any caveats on this?***
+```
+git clone http://github.com/someuser/somerepo.git
+``` 
+
+will create a folder on your machine called `somerepo` which is a verbatim copy of the repository as hosted at 
+GitHub. To synch subsequent modifications with the GitHub version: See below. 
+
+***Any caveats on cloning?***
 
 Good question. There is a cool feature of `git` that does create a caveat. Quoting: 
 
@@ -92,15 +106,17 @@ from
 [Using submodules in git](https://www.vogella.com/tutorials/GitSubmodules/article.html),
 a tutorial from Vogella
 
-...so the caveat is that in a potential submodule situation you `cd` to the new repository directory -- the one
-you just cloned -- and issue the `git` command
+...so the caveat is that in a submodule situation you `cd` to the new repository directory -- the one
+you just cloned -- and issue:
 
-```git submodule update --init --recursive```
+```
+git submodule update --init --recursive
+```
 
-Furthermore notice that if your repository has a dependency on a submodule and
-if they are not in synch you have a potential breakdown issue. 
+Notice that if your repository has a dependency on a submodule and
+if this not up to date you have a potential breakdown. 
 
-***How do I synch my local clone of the repo with my GitHub copy?***
+***How do I synch my local clone of a repo with my GitHub version?***
 
 If one is a `git` [Philistine](https://en.wikipedia.org/wiki/Philistinism) like me
 one memorizes four commands, issued from the root directory of the repo:
@@ -115,9 +131,9 @@ git push
 ***Is there a caveat to 'just use these four commands'?***
 
 Yes! Not knowing more about `git` will eventually put you at risk of losing
-some work (yours or worse: someone else's). Let's list a few of these risks and mitigators...
+some work (yours or worse: someone else's). Let's list a few of these risks...
 
-- a risk (and fix ref; where fix refs are picked up below)
+- if you do not understand *branches* you may work on and even clobber content 
 - a risk (and fix ref; where fix refs are picked up below)
 - a risk (and fix ref; where fix refs are picked up below)
 - a risk (and fix ref; where fix refs are picked up below)

@@ -23,6 +23,7 @@ is good common sense if you are interested in participating in the pangeo commun
 `git` works. Since there are a lot of resources for building this picture we do not try to do so here. Rather 
 we recommend investing some time in one of these learning paths and putting what you learn into practice as you go... 
 
+- Immerse in the [Software Carpentry git training](https://swcarpentry.github.io/git-novice/)
 - Use a search engine with 'teach me about git source control'
 - Go to a Linux command line and enter `git help`
 - Check out [this material from Atlassian](https://www.atlassian.com/git/tutorials/what-is-git)

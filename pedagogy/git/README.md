@@ -35,6 +35,40 @@ the opportunity to recommend some good practices for you to adopt.
 With cool answers: The interested participant is invited to expand this. My suggestion is the Q/As stay brief
 and jaunty and we can put deeper stuff in other locations as needed.
 
+***Why do I care about GitHub?***
+
+> GitHub is a web-based hosting service for version control using Git ([Wikipedia](https://en.wikipedia.org/wiki/GitHub))
+
+It is currently the location of the pangeo code base distributed across multiple repositories. 
+There are two good reasons to value GitHub. First: Use of GitHub including many bonus features
+at the base or entry level is free. Second: If your laptop is eaten by a llama who then falls 
+into a volcano: You are out the cost of the laptop but your code is safely preserved on GitHub; 
+so you need not panic. 
+
+***What is a GitHub User?***
+
+A GitHub User is what you want to be! (if you buy into this whole open source / git business). It is a membership
+in GitHub that is free and requires you to establish a Username. Once you are a GitHub User you can start creating 
+repositories.
+
+
+***What is a GitHub Organization?***
+
+A GitHub organization such as pangeo is a multi-participant version of a GitHub User. 
+
+
+***What is Public versus Private on GitHub?***
+
+***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***
+
+***Is GitHub -- as it seems -- a static entity; just a file system that stores older versions of itself?***
+
+This question amounts to asking whether code at GitHub is in some sense 'runnable'. This is a very central
+feature of GitHub that we can just touch on here, starting with the ubiquitous `README.md` file. This file
+is a simple text file that uses Markdown (hence the file extension) to render text like this in a more
+helpful format. But this is only the tip of the iceberg as far as GitHub *executability*. 
+
+
 ***How do I clone a repository?***
 
 `git clone http://github.com/someuser/somerepo.git` will create a folder on your machine called `somerepo` which
@@ -50,21 +84,36 @@ in separate repositories but still be able to reference them as folders in the w
 other repositories.
 
 from 
-[Using submodules in git, a tutorial from Vogella](https://www.vogella.com/tutorials/GitSubmodules/article.html)
+[Using submodules in git](https://www.vogella.com/tutorials/GitSubmodules/article.html),
+a tutorial from Vogella
 
 ...so the caveat is that in a potential submodule situation you `cd` to the new repository directory -- the one
 you just cloned -- and issue the `git` command
 
 ```git submodule update --init --recursive```
 
-Furthermore notice this creates an implicit dependency: If your repository has a dependency on a submodule and
+Furthermore notice that if your repository has a dependency on a submodule and
 if they are not in synch you have a potential breakdown issue. 
 
+***How do I synch my local clone of the repo with my GitHub copy?***
 
-***What is a GitHub User?***
+If one is a `git` [Philistine](https://en.wikipedia.org/wiki/Philistinism) like me
+one memorizes four commands, issued from the root directory of the repo:
 
-***What is a GitHub Organization?***
+```
+git pull
+git add .
+git commit -m 'comment on what i just did'
+git push
+```
 
-***What is Public versus Private on GitHub?***
+***Is there a caveat to 'just use these four commands'?***
 
-***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***
+Of course! Not knowing more about `git` will eventually -- almost certainly -- put you at risk of losing
+some of your work (or worse: losing someone else's work). Let's list a few of these risks.
+
+- a risk (and fix ref; where fix refs are picked up below)
+- a risk (and fix ref; where fix refs are picked up below)
+- a risk (and fix ref; where fix refs are picked up below)
+- a risk (and fix ref; where fix refs are picked up below)
+

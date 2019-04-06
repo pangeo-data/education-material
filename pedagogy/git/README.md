@@ -19,6 +19,8 @@ that being organized is a tenet of participating in the open source ecosystem. A
 your muffler is not about to fall off.' In like manner: Understanding `git` (and GitHub) is not required but it 
 is good common sense if you are interested in participating in the pangeo community.
 
+(By the way we concede that `git` is a software system and *not* technically a part of `Linux`.)
+
 ***How do I learn about `git`?***
 
 `git` is a slightly complicated topic: Using `git` effectively requires you to have a mental picture of how 

@@ -49,10 +49,10 @@ Ideas and notes on learning Python for geoscience... what is essential?
 xtract a small spatial subset; and with further gymnastics consolidate `n` source images into a single 
 Dataset with a `time` dimension... but then subsequent operations on the Dataset are ludicrously slow. 
 - 'This can't be right...' so I save this small Dataset to a file using `.to_netcdf()` and then open that file; 
-now the Dataset responds instantly as it should. Why did I have to invent that chicken bone dance? 
+now the Dataset responds instantly as it should. Unfortunately I *stumbled upon* this solution. 
   - How about `.load()`? 
 - ***The insidious problem: If I do not *know* my data manipulation code should run fast I am in danger of 
-accepting 'it is just annoyingly slow' as normal and I curtail my exploration of the data based on my patience.*** 
+accepting 'annoyingly slow' as normal and I curtail my exploration of the data based on my patience.*** 
 
 
 ```

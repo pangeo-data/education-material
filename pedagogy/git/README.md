@@ -126,6 +126,7 @@ if this not up to date you have a potential breakdown.
 If one is a `git` [Philistine](https://en.wikipedia.org/wiki/Philistinism) like me
 one memorizes four commands, issued from the root directory of the repo:
 
+
 ```
 git pull
 git add .
@@ -135,11 +136,13 @@ git push
 
 ***Is there a caveat to 'just use these four commands'?***
 
-Yes! Not knowing more about `git` will eventually put you at risk of losing
-some work (yours or worse: someone else's). Let's list a few of these risks...
+Yes, a huge caveat. Not knowing more about `git` will eventually put you at risk of wasting time and 
+even losing good work (yours or worse: someone else's). Let's elaborate a bit...
 
-- if you do not understand *branches* you may work on and even clobber content 
-- a risk (and fix ref; where fix refs are picked up below)
-- a risk (and fix ref; where fix refs are picked up below)
-- a risk (and fix ref; where fix refs are picked up below)
+- As noted: Carefully going through [software carpentry on git](https://swcarpentry.github.io/git-novice/)
+teaches *why* these work, what can go awry, how to deal, and bonuses like how to avoid typing in your 
+Username and Password every time you do `git push`.
+- If you do not understand *branches* you may clobber content and set back progress
+- If you are working from a fork of a repository these commands are inadequate (see 'pull request').
+- Anything else to add here?
 

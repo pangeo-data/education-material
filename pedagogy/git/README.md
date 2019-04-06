@@ -6,6 +6,8 @@ If you are interested in how pangeo *works* as a technical framework: `git` is i
 and so you'll need to know a fair amount about it. If you are interested in using a pangeo system for
 research -- and never mind the underlying motors and gears -- then you will be fine with a working 
 familiarity with `git`. We provide the following FAQ-style overview to help you calibrate your `git` picture.
+This is nowhere near as constructive -- if you want to learn `git` -- as making time to go through a good
+tutorial like the one provided by [software carpentry](https://swcarpentry.github.io/git-novice/).
 
 ***Why do I care about `git`?***
 

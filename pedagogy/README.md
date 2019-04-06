@@ -2,21 +2,6 @@ This README file is set in stone and none of its content is negotiable for all t
 
 # pedagogy
 
-## notes on [Damien's AOS Python SC lesson](https://carpentrieslab.github.io/python-aos-lesson/)
-
-### Lesson 1 
-- Creating an environment by referring to Anaconda username is great; but suggest pre-load with "you will need an Anaconda username"
-- Many of these comments have to do with having a mental model of the compute environment
-- `bash` is assumed; installing `bash` plus a Linux ramp would go into `core` as 'this is necessary, here are the refs'
-- kudos for mention `Miniconda`; I would add a note on when Miniconda tradeoffs w conda
-- explanation of `channels` and `conda-forge` is a little light; but gotta say awesome that it is there
-- is `conda list > environment.yml` a legit thing? Mention here? 
-- also option here to describe the Python command line, `.py` scripts and Jupyter cells as alternatives
-  - introduce kernels as execution threads with their own state variables
-- big conda install needs a remark on <time> = several to many minutes
-  - plus I don't want to do this twice, the second time being the `pyaos-environment` version. Just once please.
-    - I get the idea of the install above when I do `conda install xarray`
-
 
 ## polemics
 

@@ -9,6 +9,17 @@ familiarity with `git`. We provide the following FAQ-style overview to help you 
 This is nowhere near as constructive -- if you want to learn `git` -- as making time to go through a good
 tutorial like the one provided by [software carpentry](https://swcarpentry.github.io/git-novice/).
 
+***What's the (short summary please) main thing I need to know here?***
+
+We figure you are most likely a ***Pangeo User***: You want to do large-scale-data (geo)science on a 
+system that provides matching compute power on demand, appropriate tools, data access, manageable cost
+and reproducibility. *Reproducibility* includes *code security*: Everything is backed up (regardless of
+if you lost your laptop on the bus). In order to participate in this environment you will need a working 
+familiarity with `git`. You are the person this FAQ was primarily written for. A ***Pangeo Builder*** or 
+***Pangeo Developer*** will need a much deeper engagement with `git` and `GitHub` in relation to the rest 
+of the pangeo machinery.
+
+
 ***Why do I care about `git`?***
 
 `git` is a Linux command (by definition since it was written by Linus *himself* in 2005) that does source control. 
@@ -40,10 +51,7 @@ we recommend investing some time in one of these learning paths and putting what
 We want to establish how `git` and `GitHub` are built into the pangeo framework. This also gives us
 an opportunity to recommend good practices. 
 
-***And so on: More questions...***
 
-With cool answers: The interested pangeophile is invited to expand this. My suggestion is the Q/As stay brief
-and jaunty and we can put deeper stuff in other locations as needed.
 
 ***Why do I care about GitHub?***
 
@@ -68,7 +76,15 @@ repositories on GitHub. (You can create repositories on your own machines using 
 A GitHub organization such as pangeo is a multi-participant version of a GitHub User.  
 
 
+***If I put my code on GitHub can't somebody else steal it and use it?***
+
+Yes. GitHub is an open source community where the base usage tier is Public. You can pay a modest fee to make your
+presence on GitHub Private; whereupon your content will not be visible to anyone unless you grant them access to it.
+
+
 ***What is Public versus Private on GitHub?***
+
+Answer needed.
 
 
 ***Why did I get `403: Forbidden` when I attempted to log in to pangeo using my GitHub ID?***
@@ -76,6 +92,7 @@ A GitHub organization such as pangeo is a multi-participant version of a GitHub 
 As a GitHub User your content may be public but you can still be contextually set to Private
 in an organization you belong to. So you probably got the 403 because Scott forgot to tell you that 
 you need to make your GitHub *membership* in the pangeo organization **public**. 
+
 
 ***Is GitHub -- as it seems -- a static entity; like a file system that stores older versions of itself?***
 
@@ -97,6 +114,7 @@ git clone http://github.com/someuser/somerepo.git
 
 will create a folder on your machine called `somerepo` which is a verbatim copy of the repository as hosted at 
 GitHub. To synch subsequent modifications with the GitHub version: See below. 
+
 
 ***Any caveats on cloning?***
 

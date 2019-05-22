@@ -23,6 +23,17 @@ You obtain a list of names from the bash prompt like this:
 kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}'
 ```
 
+### How much memory (RAM) does my pod have? 
+
+```
+kubectil top pod <pod-name-from-above>
+```
+
+### How much disk space does my pod have? 
+
+
+
+
 ## binder
 
 ## colab

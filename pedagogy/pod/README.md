@@ -84,9 +84,8 @@ Then request how much RAM is available:
 kubectil top pod <pod-name-from-above>
 ```
 
-Another approach: Information is available in the JupyterHub config:
-
-https://github.com/pangeo-data/pangeo-cloud-federation/blob/eef3a575973f9789bcdb496b794e2334a88b4661/deployments/nasa/config/common.yaml#L59-L64
+Another technical approach: Check the information is available in the 
+[JupyterHub config](https://github.com/pangeo-data/pangeo-cloud-federation/blob/eef3a575973f9789bcdb496b794e2334a88b4661/deployments/nasa/config/common.yaml#L59-L64)
 
 
 ## binder

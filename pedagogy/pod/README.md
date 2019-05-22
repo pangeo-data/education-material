@@ -1,38 +1,25 @@
 # pod
 
-## Introduction
+## Overview
 
 When we land in a Jupyter notebook environment -- whether on **binder** or **colab** or a **JupyterHub** -- we are
-apt to ask 'Just where am I right now?' This document answers that question in the practical sense of implications. 
+apt to ask 'Just where am I right now?' This document answers that question in with practical implications. Let's 
+begin by saying "You are standing in a **pod** at the end of a road before a small brick building.
+Around you is a forest.  A small stream flows out of the building and down a gully."
 
-## general remarks
+A pod can be thought of as a computer with a built-in working environment. When we use a computer we are 
+accustomed to stopping at some point (say for lunch) and coming back later. The computer is still
+there. However a pod is a construct *on* some computer; and so the question of its persistence is very
+important. A pod may persist for days or weeks or indefinitely; or on the other hand it may evaporate in a 
+matter of minutes or hours if you stop using it.  If it persists it probably still stops from time to time
+and must be re-started. 
 
-A pod can be thought of as a computer with a built-in environment. It may persist or it may evaporate so it is 
-important to know what type of environment one is dealing with. An important corollary idea is that pods are often
-created on clusters which are in turn orchestrated (turned on, turned off, configured, managed, ...) using a
-software framework called `kubernetes`. We can say that a kubernetes cluster has an interaction *command* which 
-is `kubectl`. I like to pronounce this **koo - beck - tile** just to annoy people. In what follows when you see
-a command that begins with `kubectl` you know it is about interacting with a cluster of computers that can host
-pods. 
+### Get pod parameters using Python
 
-## pod horsepower
+Work in progress; need to add disk space bit...
 
-How powerful / wimpy is my computing environment? 
-### What is my pod's name? How much memory does it have? What else can I learn about it? 
-
-You obtain a list of names from the bash prompt like this: 
-
-```
-kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}'
-```
-
-Memory: 
-
-```
-kubectil top pod <pod-name-from-above>
-```
-
-Or open a Python cell in a Jupyter notebooks and run this: 
+We can use `psutil`, the Python system and process utility package, to get a read-out on the virtual machine
+where the pod resides. For example: In a Jupyter notebook cell enter and run this Python code: 
 
 ```
 def tell_system_status():
@@ -63,7 +50,7 @@ def tell_system_status():
 print(tell_system_status())
 ```
 
-The output is something like this: 
+The output will be something like this: 
 
 ```
 I am currently running on Linux version 4.14.106.  
@@ -76,9 +63,30 @@ Current memory utilization is 11.8 percent.
 it's running since Tuesday 23. April 2019.
 ```
 
-### How much disk space does my pod have? 
+Caveat: This is for the node (EC2 virtual machine) that the pod lives on, not the pod resource limits identified in the 
+JupyterHub config (see below). The effective resources available in the *pod* are about 1/2 of the what is printed above 
+as we have been placing two user pods on every virtual machine. 
 
 
+### ***Pro Tip: using `kubectl` and JHub config***
+
+Pods are often created on clusters which are in turn orchestrated (turned on, turned off, 
+configured, managed, ...) using a software framework called `kubernetes`. We can say that a kubernetes cluster has 
+an interaction *command* which is `kubectl`. I like to pronounce this **koo - beck - tull** but that is no doubt 
+incorrect. A shell command that begins with `kubectl` is an interaction with a cluster of 
+virtual machines that host pods. For example: Obtain a list of pod names from the bash prompt: 
+
+```
+kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}'
+```
+Then request how much RAM is available:
+```
+kubectil top pod <pod-name-from-above>
+```
+
+Another approach: Information is available in the JupyterHub config:
+
+https://github.com/pangeo-data/pangeo-cloud-federation/blob/eef3a575973f9789bcdb496b794e2334a88b4661/deployments/nasa/config/common.yaml#L59-L64
 
 
 ## binder

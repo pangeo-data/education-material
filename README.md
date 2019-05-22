@@ -25,3 +25,4 @@ can be effective.
 | https://github.com/cormorack/notebooks | _No longer exists?  Is private?_ |
 | https://github.com/cormorack/whalebooks | _No longer exists?  Is private?_ |
 | https://github.com/mrocklin/pydata-nyc-2018-tutorial | Dask tutorial running on Pangeo Binder: Dataframes, Delayed and SickitLearn |
+| http://cybertraining.umbc.edu/docs/UMBC_CyberTraining_Spring_2019.pdf | Univ MD Baltimore County big data atmospheric science (flipped classroom) |

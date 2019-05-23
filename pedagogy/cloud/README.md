@@ -8,8 +8,8 @@ Object storage, coloquially 'buckets', is the answer to "Where do I store data o
 service is called S3. On Azure the service is "Blob storage". On Google it is simply Cloud Storage. It costs about
 $300 per Terabyte per year on AWS and the other cloud rates are comparable. 
 
-***Pro Tip: Don't rely on costs quoted here; they are for circa-2019 order of magnitude purposes. Instead
-just type the question into your browser, for example 'How much is Azure object storage per GB?'***
+> ***Pro Tip: Don't rely on costs quoted here; they are for circa-2019 order of magnitude purposes. Instead
+> just type the question into your browser, for example 'How much is Azure object storage per GB?'***
 
 ## moving data
 

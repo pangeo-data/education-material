@@ -17,7 +17,8 @@ Suppose I want to transfer a dataset from the Google cloud to the Amazon cloud. 
 much it is going to cost; and then I need a command; and then I need to be able to debug that command if it fails. 
 
 
-It costs money to pull data from a cloud platform to the internet (even if it is going directly back into another cloud). 
+It costs money to pull data from a cloud platform to the internet (even if it is going directly back into another cloud).
+$0.10 (USD) per GB is the rule of thumb. 
 
 ```
 rclone sync gcloud:pangeo-data/dataset-duacs-rep-global-merged-allsat-phy-l4-v3-alt  \

@@ -2,7 +2,7 @@
 
 This section focuses on basics of using the cloud: What can I do? How much does that cost? 
 
-## looking at object storage
+## object storage
 
 Object storage, coloquially 'buckets', is the answer to "Where do I store data on the cloud?" On AWS the associated 
 service is called S3. On Azure the service is "Blob storage". On Google it is simply Cloud Storage. It costs about

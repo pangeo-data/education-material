@@ -18,6 +18,10 @@ Appendix: Who's Who
 0. Reminder: Everything should mesh with [the main pangeo site](http://pangeo.io/)
 1. Roll call: Name, where, focus
     - Rob: Remarks on inclusivity and Sir Not Appearing In This Call
+    
+    * Dax Asst Prof QCNY: Using pangeo with primary undergrads: OOI: Develop those datasets; interest based on transitioning students from mouse-competent to independent data scientist
+    * Kevin Tyle at U.Albany IT management: Pangeo data wg. Get students equipped for the jobs waiting for them; people who have domain + cloud + github + data standards: Valued skill set. Planning an online class that will hopefully <---> wg benefit: Advanced geosci data visualization. Also will attend Mind The Gap meeting in Boulder next month: Building coursework. 
+    * Jim Bednar at Anaconda: Working on contracts e.g. with USACE which claim they will provide best practices esp in data visualization and handling; and 'how to get your job done'; so need to make materials available such that they are coordinated across pangeo. 
 2. Recap the three pillars of pangeo
     - The Pangeo project serves as a coordination point between scientists, software, and computing infrastructure 
       - Community building: Foster collaboration around open source scientific Python ecosystem for O/A/L/CS
@@ -46,6 +50,7 @@ Appendix: Who's Who
       - 5 or 6 virtual sprints per year, virtual working space
       - Need a ***testing protocol and testing schedule*** for content
       - Pedagogical issues: Expert blind spot, ***debugging***, time-to-proficiency estimation, what else?
+      - Do-and-capture mantra
     - Existing content
       - Damien's OA s/w carpentry (Example review question: 'Does this include `dask`?')
       - Need a review/overhaul of the table presented on the 

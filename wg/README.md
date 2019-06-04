@@ -15,7 +15,7 @@
 
 0. Reminder everything should mesh with [the main pangeo site](http://pangeo.io/)
 1. Roll call: Name, where, focus
-  - Rob: Remarks on inclusivity and Sir Not Appearing In This Call
+    - Rob: Remarks on inclusivity and Sir Not Appearing In This Call
 2. Recap the three pillars of pangeo
   - tech
   - learning

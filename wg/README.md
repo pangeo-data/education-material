@@ -11,6 +11,8 @@
 5. Call tempo through September
 6. Actions
 
+Appendix: Who's Who
+
 ### Elaborated Agenda
 
 0. Reminder: Everything should mesh with [the main pangeo site](http://pangeo.io/)
@@ -69,3 +71,20 @@
       - Issues #411 and #575 require review with follow-up with contributors >> Game Plan
     - Other? ()
 
+## Who's Who
+
+* Philip Austin (@phaustin) is chair of the Atmospheric Sciences Programme in the UBC Department of Earth, Ocean and Atmospheric Sciences -- currently deploying pangeo on UBC clusters.
+
+* Ryan Abernathy (@rabernat)
+
+* Dax Soule (@daxsoule)
+
+* Joe Hamman (@jhamman)
+
+* Anthony Arendt (@aaarendt)
+
+* Amanda Tan (@amanda-tan) 
+
+* Scott Henderson (@scottyhq)
+
+* Rob Fatland (@robfatland) is a Research Computing Director at UW (eScience Institute and UW IT jointly). PhD in geophysics; emphasis on remote sensing, technology serving 'data to insight' and building tractable learning curves. 

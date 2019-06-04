@@ -43,11 +43,12 @@
           - modularized from a 20 minute talk to a 4 hour AGU tutorial to multi-day presence at hackweek 
         - 5 or 6 virtual sprints per year
         - Virtual working space
-        - Need a testing protocol and testing schedule for content
-        - Pedagogical issues: Expert blind spot, debugging, time-to-proficiency estimation, what else?
+        - Need a ***testing protocol and testing schedule*** for content
+        - Pedagogical issues: Expert blind spot, ***debugging***, time-to-proficiency estimation, what else?
       - Existing content
-        - Let's consider R-OpenSci and Pi-OpenSci: Peer review s/w publication
-        - Damien's OA s/w carpentry (Joe asks whether this includes `dask`)
+        - Damien's OA s/w carpentry (Example review question: 'Does this include `dask`?')
+        - Need a review/overhaul of the table presented on the 
+[*education-material* repo main page](https://github.com/pangeo-data/education-material)
         - Z2JHub: Good exemplar project model for content
           - Z2Pangeo is nice but too general; suggesting Z2PangeoX where X is the focus
       - Synthesis and Wheel Non-Reinvention
@@ -55,13 +56,14 @@
         - Z2Pangeo >> Z2JHub???
         - "Focus on building better documentation elsewhere" not just += the pangeo portfolio (tag!)
         - Align with NCAR's ongoing efforts, NCL transition, etc?
-4. Open discussion: What should be in the mix
-5. Call tempo through September
+4. Open discussion: What else should be in the mix
+5. Call tempo through August
 6. Actions
   - Write up notes from this call (Rob)
   - Schedule next call
-  - Define working space
-  - Draft the game plan
+  - Create working space
+  - Draft a ***Game Plan***:  Participants with roles, deliverables; sprint timing (first one to end Aug 16?)
   - Issue #521 at pangeo-data/pangeo: Glacier model proposal by fmaussion: Follow-up?
   - Issue #440 at pangeo-data/pangeo: Resources for education events: We need an owner for this sub-topic (especially load testing)
+  - Issues #411 and #575 require review with follow-up with contributors >> Game Plan
 

@@ -25,6 +25,7 @@
     - facets
       - Practical considerations
         - To work on this requires support of some sort; what is pending? what might we apply for?
+          - Example (past): [NSF 19-524](https://www.nsf.gov/publications/pub_summ.jsp?WT.z_pims_id=505342&ods_key=nsf19524)
         - "Thanks for the pod... by the way who pays for this?"
         - Schedule: Year 2 (NASA) starts in August; many other gears also turning
         - What are the different ways that pangeo education goes into practice? (list courses, hackweeks, etc)
@@ -49,10 +50,11 @@
         - Damien's OA s/w carpentry (Joe asks whether this includes `dask`)
         - Z2JHub: Good exemplar project model for content
           - Z2Pangeo is nice but too general; suggesting Z2PangeoX where X is the focus
-      - Wheel Non-Reinvention
+      - Synthesis and Wheel Non-Reinvention
         - Let's consider R-OpenSci and Pi-OpenSci: Peer review s/w publication
         - Z2Pangeo >> Z2JHub???
         - "Focus on building better documentation elsewhere" not just += the pangeo portfolio (tag!)
+        - Align with NCAR's ongoing efforts, NCL transition, etc?
 4. Open discussion: What should be in the mix
 5. Call tempo through September
 6. Actions
@@ -60,4 +62,6 @@
   - Schedule next call
   - Define working space
   - Draft the game plan
+  - Issue #521 at pangeo-data/pangeo: Glacier model proposal by fmaussion: Follow-up?
+  - Issue #440 at pangeo-data/pangeo: Resources for education events: We need an owner for this sub-topic (especially load testing)
 

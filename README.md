@@ -19,6 +19,7 @@ Folders include additional organizing/draft material.
 | https://rabernat.github.io/research_computing_2018/ | @rabernat's Research Computing in Earth Sciences course |
 | https://github.com/robfatland/synoptic | @robfatland's synoptic notebooks on connecting RCO to other data |
 | https://github.com/robfatland/gallery | @robfatland's gallery of geoscience example notebooks |
+| https://github.com/pangeo-data/cmr | @robfatland's CMR-oriented notebooks; with golive and bootstrapping |
 | https://github.com/pshivraj/batl | Bio-Acoustic Transfer learning (@pshivraj) |
 | https://github.com/Unidata/python-workshop | Unidata Python Workshop material |
 | https://github.com/brian-rose/ClimateModeling_courseware | @brian-rose's climate modeling lecture notes |

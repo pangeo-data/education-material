@@ -91,9 +91,9 @@ Another technical approach: Check the information is available in the
 
 ## binder
 
-I want the ***open in binder*** badge to work within my repo! My repo is called `badger` and my GitHub username 
-is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
-service. This is sufficient information; I now edit the main `README.md` file to include 
+I want the ***open in binder*** badge to work within my repo! My repo (on GitHub) is called `badger` and my GitHub 
+username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
+service. This is sufficient information; I can edit the main `README.md` file to include 
 this line at the top of the file:
 
 
@@ -111,8 +111,16 @@ we wish to use the `master` branch. This repository has a binder badge in its `R
 [![Binder](http://binder.pangeo.io/badge.svg)](http://binder.pangeo.io/v2/gh/pangeo-data/pangeo-example-notebooks/master)
 ```
 
+At the very end of both of these URLs we *could* append `?urlpath=lab`. This is a key-value pair that translates
+as "When all is said and done setting up this binder instance: Append `lab` to the binder URL." This has the effect
+of establishing the working environment inside [**JupyterLab**](https://jupyterlab.readthedocs.io) which is the
+very cool next-generation Jupyter notebook environment. This is an example of where the sidewalk ends: Going into
+additional key-value pair features of this binder interface is out of scope. 
+
+
 Now that we have installed the badge line in `README.md` we are half way done. The other thing that we need 
 is a text file in this same repository that describes the computing environment in terms of software packages. 
+
 
 left off here.
 

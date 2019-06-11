@@ -2,13 +2,13 @@
 
 ## Overview
 
-When we land in a Jupyter notebook environment -- whether on **binder** or **colab** or some **JupyterHub**
-or where have you -- we are
-apt to ask 'Just where am I right now?' This document answers that question with practical implications. Let's 
-begin by saying "You are standing in a **pod** at the end of a road before a small brick building.
-Around you is a forest.  A small stream flows out of the building and down a gully." (Just a little joke.)
+When we land in a Jupyter notebook environment -- say **binder** or **colab** or a **JupyterHub** etc --
+we can ask 'Just where am I right now?' This document answers that question with practical implications. 
+Let's begin with a little joke: "You are standing in a **pod** at the end of a road before a small brick building.
+Around you is a forest.  A small stream flows out of the building and down a gully."
 
-A pod can be thought of as a computer with a built-in working environment. When we use a computer we are 
+Ok *actually* a pod can be thought of as a computer with a built-in working environment. When we use a computer 
+we are 
 accustomed to stopping at some point (say for lunch) and coming back later. The computer is still
 there. However a pod is a construct *on* some computer; and so the question of its persistence is very
 important. A pod may persist for days or weeks or indefinitely; or on the other hand it may evaporate in a 
@@ -91,11 +91,23 @@ Another technical approach: Check the information is available in the
 
 ## binder
 
-I want the ***open in binder*** badge to work within my repo! My repo (on GitHub) is called `badger` and my GitHub 
+I want my repository to be available in binder! My repo (on GitHub) is called `badger` and my GitHub 
 username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
-service. This is sufficient information; I can edit the main `README.md` file to include 
-this line at the top of the file:
+service. This is sufficient information; I now have two paths that I can follow. On the first path I simply use
+the wizard provided at the [binder.org website](https://mybinder.org). This is a manual process and when
+completed I will find myself in a binder session with a copy of my repository present. 
 
+
+The second path has two improvements over the first. First I will install a *badge* directly into my 
+repository `badger` which will auto-launch the repository (`badger`) in binder. That is: The ***open in binder*** 
+badge will work within my repo for anyone to use. We'll call this Cool Feature 1. Secondly we want the
+binder session to pre-install software packages that are used by the code in my repository. That
+will be Cool Feature 2. 
+
+### Cool Feature 1
+
+To get the launch badge working: Edit the main `README.md` file at the root of your repository 
+to include this line at the top of the file:
 
 ```
 [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/norbert314/badger/master)
@@ -122,7 +134,13 @@ Now that we have installed the badge line in `README.md` we are half way done. T
 is a text file in this same repository that describes the computing environment in terms of software packages. 
 
 
-left off here.
+### Cool Feature 2
+
+There are (for our purposes) a couple of ways to direct the installation of software packages for Python. 
+Other languages like **R** have similar mechanisms not described here. The first way is to include a file
+recognized by the **conda** package manager, called by convention `environment.yml`. The second way is to 
+include a file recognized by the **pip** package installer, called by convention `requirements.txt`. 
+Either of these files can be automatically generated so the finesse is to determine which one to use.
 
 
 

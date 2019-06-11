@@ -1,6 +1,6 @@
-# pod
+# pods
 
-### Overview
+## Overview
 
 When we land in a Jupyter notebook environment -- say **binder** or **colab** or a **JupyterHub** etc --
 we can ask 'Just where am I right now?' This document answers that question with practical implications. 
@@ -89,7 +89,7 @@ Another technical approach: Check the information is available in the
 [JupyterHub config](https://github.com/pangeo-data/pangeo-cloud-federation/blob/eef3a575973f9789bcdb496b794e2334a88b4661/deployments/nasa/config/common.yaml#L59-L64)
 
 
-### binder
+## binder
 
 I want my repository to be available in binder! My repo (on GitHub) is called `badger` and my GitHub 
 username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
@@ -201,6 +201,6 @@ $ pip freeze > requirements.txt
 flag incomplete: Add a `postbuild` (no extension) file in repo root which includes the necessary `wget` command. 
 
 
-### colab
+## colab
 
-### jupyter hub
+## jupyter hub

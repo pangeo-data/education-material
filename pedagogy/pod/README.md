@@ -2,10 +2,11 @@
 
 ## Overview
 
-When we land in a Jupyter notebook environment -- whether on **binder** or **colab** or a **JupyterHub** -- we are
-apt to ask 'Just where am I right now?' This document answers that question in with practical implications. Let's 
+When we land in a Jupyter notebook environment -- whether on **binder** or **colab** or some **JupyterHub**
+or where have you -- we are
+apt to ask 'Just where am I right now?' This document answers that question with practical implications. Let's 
 begin by saying "You are standing in a **pod** at the end of a road before a small brick building.
-Around you is a forest.  A small stream flows out of the building and down a gully."
+Around you is a forest.  A small stream flows out of the building and down a gully." (Just a little joke.)
 
 A pod can be thought of as a computer with a built-in working environment. When we use a computer we are 
 accustomed to stopping at some point (say for lunch) and coming back later. The computer is still

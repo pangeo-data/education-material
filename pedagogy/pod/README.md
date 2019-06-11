@@ -98,11 +98,12 @@ the wizard provided at the [binder.org website](https://mybinder.org). This is a
 completed I will find myself in a binder session with a copy of my repository present. 
 
 
-The second path has two improvements over the first. First I will install a *badge* directly into my 
+The second path has three improvements over the first. First I will install a *badge* directly into my 
 repository `badger` which will auto-launch the repository (`badger`) in binder. That is: The ***open in binder*** 
 badge will work within my repo for anyone to use. We'll call this Cool Feature 1. Secondly we want the
 binder session to pre-install software packages that are used by the code in my repository. That
-will be Cool Feature 2. 
+will be Cool Feature 2. Thirdly we want to pre-load a modest-sized dataset into the binder session
+without having to store a copy of that data in the GitHub repository. Behold Cool Feature 3. 
 
 ### Cool Feature 1
 
@@ -136,12 +137,47 @@ is a text file in this same repository that describes the computing environment 
 
 ### Cool Feature 2
 
-There are (for our purposes) a couple of ways to direct the installation of software packages for Python. 
-Other languages like **R** have similar mechanisms not described here. The first way is to include a file
-recognized by the **conda** package manager, called by convention `environment.yml`. The second way is to 
-include a file recognized by the **pip** package installer, called by convention `requirements.txt`. 
+flag: Need to include the context of a terminal; and need to indicate the more complete `pip` procedure using a temp
+environment (?) as noted at top of `ops/README`.
+
+
+There are (for our purposes) a couple of ways used (text files generated) to direct the installation of software 
+packages for Python. Your choice of file name implicitly decides how the installation proceeds. Side note:
+Other languages like **R** have similar mechanisms not described here. 
+
+
+The first way to install packages as binder launches a session is to include a file recognized by the 
+**conda** package manager. This file *must* be called `environment.yml` by convention. The second way 
+to install packages as binder launches a session is to include a file recognized by the **pip** package installer, called by convention `requirements.txt`. 
 Either of these files can be automatically generated so the finesse is to determine which one to use.
 
+
+Rule of thumb: Use `pip` if you can; but if it fails then go to `conda`. The latter has *channels* such 
+as `conda-forge` that can provide resources that are off the beaten path. From the root directory of the
+repository issue
+
+```
+$ conda env export
+```
+
+to produce the `environment.yml` issue
+
+To see what `requirements.txt` would look like issue
+
+```
+$ pip freeze
+```
+
+You can direct this into a `requirements.txt` file like so:
+
+```
+$ pip freeze > requirements.txt
+```
+
+### Cool Feature 3
+
+
+flag incomplete: Add a `postbuild` (no extension) file in repo root which includes the necessary `wget` command. 
 
 
 ## colab

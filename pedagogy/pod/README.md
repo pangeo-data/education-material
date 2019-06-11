@@ -159,7 +159,7 @@ is a text file in this same repository that describes the computing environment 
 #### Cool Feature 2
 
 flag: Need to include the context of a terminal; and need to indicate the more complete `pip` procedure using a temp
-environment (?) as noted at top of `ops/README`.
+environment (?) as noted at top of `ops/README`. pip.pypa.org maybe? search on pip_freeze probably works. 
 
 
 There are (for our purposes) a couple of ways used (text files generated) to direct the installation of software 
@@ -183,7 +183,9 @@ $ conda env export
 
 to produce the `environment.yml` issue
 
+
 To see what `requirements.txt` would look like issue
+
 
 ```
 $ pip freeze

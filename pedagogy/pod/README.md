@@ -91,6 +91,33 @@ Another technical approach: Check the information is available in the
 
 ## binder
 
+I want the ***open in binder*** badge to work within my repo! My repo is called `badger` and my GitHub username 
+is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
+service. This is sufficient information; I now edit the main `README.md` file to include 
+this line at the top of the file:
+
+
+```
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/norbert314/badger/master)
+```
+
+To unpack the URL a bit further: Notice this is binder version 2 (`v2`) and that the repo is hosted on GitHub (`gh`). 
+To further illustrate the mapping from nouns to markdown: The pangeo organization maintains its own binder
+instance called `binder.pangeo.io`. Within the GitHub website `https://github.com` we find that pangeo has
+an organization named `pangeo-data`. Therein resides a repository called `pangeo-example-notebooks` where again
+we wish to use the `master` branch. This repository has a binder badge in its `README.md` file that reads as follows: 
+
+```
+[![Binder](http://binder.pangeo.io/badge.svg)](http://binder.pangeo.io/v2/gh/pangeo-data/pangeo-example-notebooks/master)
+```
+
+Now that we have installed the badge line in `README.md` we are half way done. The other thing that we need 
+is a text file in this same repository that describes the computing environment in terms of software packages. 
+
+left off here.
+
+
+
 ## colab
 
 ## jupyter hub

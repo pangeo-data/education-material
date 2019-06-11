@@ -103,7 +103,28 @@ repository `badger` which will auto-launch the repository (`badger`) in binder. 
 badge will work within my repo for anyone to use. We'll call this Cool Feature 1. Secondly we want the
 binder session to pre-install software packages that are used by the code in my repository. That
 will be Cool Feature 2. Thirdly we want to pre-load a modest-sized dataset into the binder session
-without having to store a copy of that data in the GitHub repository. Behold Cool Feature 3. 
+without having to store a copy of that data in the GitHub repository. Behold Cool Feature 3.
+
+
+Before detailing these three cool features (including how to build them) we have a brief intermezzo
+intended to frame 'how I should think about binder'. 
+
+
+#### Conceptual basis
+
+flag Before getting into the three cool features (badges, package installation, data inclusion) let's review
+a working understanding of what's going on with binder. 
+
+
+This needs to indicate the binder registry both in regards spin up time and re-building the image when
+the hash changes; so what changes the hash and what doesn't? How can I use binder as a sanity check on 
+my package ensemble? When do I start resorting to environments? How does binder help me streamline 
+package installation? Is there always an implicit non-binder working environment?
+
+The answer is *yes* unless you have a private authentication-protected binder instance. Without that
+you would be relegated to passing your credentials from binder back to GitHub to update content; a 
+practice that is discouraged. 
+
 
 #### Cool Feature 1
 

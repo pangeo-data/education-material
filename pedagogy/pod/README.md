@@ -1,6 +1,6 @@
 # pod
 
-## Overview
+### Overview
 
 When we land in a Jupyter notebook environment -- say **binder** or **colab** or a **JupyterHub** etc --
 we can ask 'Just where am I right now?' This document answers that question with practical implications. 
@@ -15,7 +15,7 @@ important. A pod may persist for days or weeks or indefinitely; or on the other 
 matter of minutes or hours if you stop using it.  If it persists it probably still stops from time to time
 and must be re-started. 
 
-### Get pod parameters using Python
+#### Get pod parameters using Python
 
 Work in progress; need to add disk space bit...
 
@@ -69,7 +69,7 @@ JupyterHub config (see below). The effective resources available in the *pod* ar
 as we have been placing two user pods on every virtual machine. 
 
 
-### ***Pro Tip: using `kubectl` and JHub config***
+#### ***Pro Tip: using `kubectl` and JHub config***
 
 Pods are often created on clusters which are in turn orchestrated (turned on, turned off, 
 configured, managed, ...) using a software framework called `kubernetes`. We can say that a kubernetes cluster has 
@@ -89,7 +89,7 @@ Another technical approach: Check the information is available in the
 [JupyterHub config](https://github.com/pangeo-data/pangeo-cloud-federation/blob/eef3a575973f9789bcdb496b794e2334a88b4661/deployments/nasa/config/common.yaml#L59-L64)
 
 
-## binder
+### binder
 
 I want my repository to be available in binder! My repo (on GitHub) is called `badger` and my GitHub 
 username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
@@ -105,7 +105,7 @@ binder session to pre-install software packages that are used by the code in my 
 will be Cool Feature 2. Thirdly we want to pre-load a modest-sized dataset into the binder session
 without having to store a copy of that data in the GitHub repository. Behold Cool Feature 3. 
 
-### Cool Feature 1
+#### Cool Feature 1
 
 To get the launch badge working: Edit the main `README.md` file at the root of your repository 
 to include this line at the top of the file:
@@ -135,7 +135,7 @@ Now that we have installed the badge line in `README.md` we are half way done. T
 is a text file in this same repository that describes the computing environment in terms of software packages. 
 
 
-### Cool Feature 2
+#### Cool Feature 2
 
 flag: Need to include the context of a terminal; and need to indicate the more complete `pip` procedure using a temp
 environment (?) as noted at top of `ops/README`.
@@ -174,12 +174,12 @@ You can direct this into a `requirements.txt` file like so:
 $ pip freeze > requirements.txt
 ```
 
-### Cool Feature 3
+#### Cool Feature 3
 
 
 flag incomplete: Add a `postbuild` (no extension) file in repo root which includes the necessary `wget` command. 
 
 
-## colab
+### colab
 
-## jupyter hub
+### jupyter hub

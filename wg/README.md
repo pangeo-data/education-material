@@ -1,23 +1,22 @@
 # Working Group 
 
-## first call notes on June 4 2019
+## history recent first
 
-### Agenda
+### call June 4 2019 
 
-1. Roll call: Name, where, focus
-2. Recap the three pillars of pangeo
-3. Recap of "input to date" on pangeo education
-4. Open discussion: What should be in the mix
-5. Call tempo through September
-6. Actions
+#### Present *or* contributing
 
-Appendix: Who's Who
+* Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
+* Ryan Abernathy (@rabernat) Columbia
+* Dax Soule (@daxsoule) QCNY
+* Joe Hamman (@jhamman) NCAR
+* Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
+* Amanda Tan (@amanda-tan) UW eScience
+* Scott Henderson (@scottyhq) UW eScience 
+* Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
 
-### Elaborated Agenda
+For more see sub-folder bios. 
 
-0. Reminder: Everything should mesh with [the main pangeo site](http://pangeo.io/)
-1. Roll call: Name, where, focus
-    - Rob: Remarks on inclusivity and Sir Not Appearing In This Call
     
     * Dax Asst Prof QCNY: Using pangeo with primary undergrads: OOI: Develop those datasets; interest based on transitioning students from mouse-competent to independent data scientist
     * Kevin Tyle at U.Albany IT management: Pangeo data wg. Get students equipped for the jobs waiting for them; people who have domain + cloud + github + data standards: Valued skill set. Planning an online class that will hopefully <---> wg benefit: Advanced geosci data visualization. Also will attend Mind The Gap meeting in Boulder next month: Building coursework. 
@@ -83,20 +82,5 @@ Appendix: Who's Who
       - Issues #411 and #575 require review with follow-up with contributors >> Game Plan
     - Other? ()
 
-## Who's Who
 
-* Philip Austin (@phaustin) is chair of the Atmospheric Sciences Programme in the UBC Department of Earth, Ocean and Atmospheric Sciences -- currently deploying pangeo on UBC clusters.
-
-* Ryan Abernathy (@rabernat)
-
-* Dax Soule (@daxsoule)
-
-* Joe Hamman (@jhamman)
-
-* Anthony Arendt (@aaarendt)
-
-* Amanda Tan (@amanda-tan) 
-
-* Scott Henderson (@scottyhq)
-
-* Rob Fatland (@robfatland) is a Research Computing Director at UW (eScience Institute and UW IT jointly). PhD in geophysics; emphasis on remote sensing, technology serving 'data to insight' and building tractable learning curves. 
+ 

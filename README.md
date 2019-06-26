@@ -3,7 +3,8 @@
 > will not have the vaguest idea what happened or how to debug it and recover from it
 >[.](http://github.com/robfatland/ops) I’m going to have to teach them all about IUnknown and CLSIDs 
 > and ProgIDS and … oh, the humanity!
-Joel Spolsky, on the [Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+
+--Joel Spolsky, on the [Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 # Education Material
 

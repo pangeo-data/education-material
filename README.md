@@ -10,7 +10,7 @@
 
 This repository is for pointers and descriptions of existing educational material: For learning and using the Pangeo 
 platform, software ecosystem, deployments, and related technology[.](http://github.com/robfatland/ops) 
-Folders include additional organizing/draft material. 
+Please tunnel into the sub-folders for organizing material. 
 
 | Location | Description |
 | -------- | ----------- |

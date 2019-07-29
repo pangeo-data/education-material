@@ -30,5 +30,6 @@ Please tunnel into the sub-folders for organizing material.
 | https://github.com/mrocklin/pydata-nyc-2018-tutorial | Dask tutorial running on Pangeo Binder: Dataframes, Delayed and SickitLearn |
 | http://cybertraining.umbc.edu/docs/UMBC_CyberTraining_Spring_2019.pdf | Univ MD Baltimore County big data atmospheric science (flipped classroom) |
 | https://the-turing-way.com | A lightly opinionated guide to reproducible data science |
-| https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin | 
+| https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin |
+| https://docs.google.com/spreadsheets/d/1mUd-MPCdhNw4fPcQFZmE8YPP1hmuR8VYbGrzyfuOMrY/edit#gid=0 | ESIP workshop feedback sheet |
 

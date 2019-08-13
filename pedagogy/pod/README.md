@@ -91,6 +91,8 @@ Another technical approach: Check the information is available in the
 
 ## binder
 
+>  A pangeo binder instance has a bare-bones jupyter environment by default that comes from repo2docker; nothing pangeo-related actually. An environment.yml or other config file will be picked up by repo2docker to add that stuff to the default environment. An image is built and saved to prevent re-building. The image is tagged based on github commit so if the repo with the environment.yml hasn’t changed the image doesn’t rebuild. Because the image is based on the github tag and not the user, multiple users can click the same link, and each person gets a duplicate environment on their own pod. -Scott Henderson
+
 I want my repository to be available in binder! My repo (on GitHub) is called `badger` and my GitHub 
 username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
 service. This is sufficient information; I now have two paths that I can follow. On the first path I simply use

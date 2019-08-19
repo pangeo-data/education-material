@@ -15,9 +15,9 @@ and relevance to building customization that works in a binder instance.
 
 Questions to answer are: 
 
-- What do we find once we jump in the pool?
-- Is it minimalist?
-- Can we test an empty world transfer to binder? How? Does it work?
+- What do we find once we jump in the pool? Looking ahead to binder: Is it minimalist?
+- How do I jump back out again?
+- From within: Can we test an empty world transfer to binder? How? Does it work?
 - Once that is managed let's try and install yodapy and run a couple lines of it; same test: binder
 
 

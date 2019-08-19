@@ -93,7 +93,35 @@ Another technical approach: Check the information is available in the
 
 >  A pangeo binder instance has a bare-bones jupyter environment by default that comes from repo2docker; nothing pangeo-related actually. An environment.yml or other config file will be picked up by repo2docker to add that stuff to the default environment. An image is built and saved to prevent re-building. The image is tagged based on github commit so if the repo with the environment.yml hasn’t changed the image doesn’t rebuild. Because the image is based on the github tag and not the user, multiple users can click the same link, and each person gets a duplicate environment on their own pod. -Scott Henderson
 
-I want my repository to be available in binder! My repo (on GitHub) is called `badger` and my GitHub 
+I want my repository to be available in binder! For two reasons! First it is a test of the portability of my 
+repository as a working space. Second it allows me (when it works) to share my work with other people at a single
+click with no authentication.
+
+
+I would prefer to configure the binder pod using `environment.yml` rather than `requirements.txt`. The latter 
+uses `pip` and the former uses the `conda` package manager.  Here is my `environment.yml` configuration file: 
+
+
+```
+name: rca2binder-environment
+dependencies:
+  - python=3.7
+  - rasterio
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - matplotlib
+  - ipywidgets
+  - pillow
+  - traitlets
+  ```
+  
+  
+
+
+
+My repo (on GitHub) is called `badger` and my GitHub 
 username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
 service. This is sufficient information; I now have two paths that I can follow. On the first path I simply use
 the wizard provided at the [binder.org website](https://mybinder.org). This is a manual process and when

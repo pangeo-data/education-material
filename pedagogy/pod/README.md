@@ -3,24 +3,28 @@
 ## Overview
 
 When we land in a Jupyter notebook environment -- say **binder** or **colab** or a **JupyterHub** etc --
-we can ask 'Just where am I right now?' This document answers that question with practical implications. 
+we ask 'Just where am I right now?' This document answers that question with practical implications. 
 Let's begin with a little joke: "You are standing in a **pod** at the end of a road before a small brick building.
 Around you is a forest.  A small stream flows out of the building and down a gully."
 
-Ok *actually* a pod can be thought of as a computer with a built-in working environment. When we use a computer 
-we are 
+Ok *actually* a pod can be thought of as a computer with a built-in working environment. 
+When we work at a computer we are 
 accustomed to stopping at some point (say for lunch) and coming back later. The computer is still
 there. However a pod is a construct *on* some computer; and so the question of its persistence is very
-important. A pod may persist for days or weeks or indefinitely; or on the other hand it may evaporate in a 
-matter of minutes or hours if you stop using it.  If it persists it probably still stops from time to time
-and must be re-started. 
+important. A pod may persist for days or weeks or indefinitely; or on the other hand a pod may evaporate in a 
+matter of minutes or hours if you stop using it.  Even if it persists it might still stop from time to time
+and need to be re-started. 
+
 
 #### Get pod parameters using Python
 
-Work in progress; need to add disk space bit...
+Work in progress; need to add disk space bit... flag
+Work in progress; need to add load data via shell script file after configuration is done... flag
+
 
 We can use `psutil`, the Python system and process utility package, to get a read-out on the virtual machine
 where the pod resides. For example: In a Jupyter notebook cell enter and run this Python code: 
+
 
 ```
 def tell_system_status():
@@ -91,7 +95,13 @@ Another technical approach: Check the information is available in the
 
 ## binder
 
->  A pangeo binder instance has a bare-bones jupyter environment by default that comes from repo2docker; nothing pangeo-related actually. An environment.yml or other config file will be picked up by repo2docker to add that stuff to the default environment. An image is built and saved to prevent re-building. The image is tagged based on github commit so if the repo with the environment.yml hasn’t changed the image doesn’t rebuild. Because the image is based on the github tag and not the user, multiple users can click the same link, and each person gets a duplicate environment on their own pod. -Scott Henderson
+>  "A pangeo binder instance has a bare-bones jupyter environment by default that comes from repo2docker; nothing pangeo-related. 
+An `environment.yml` or `requirements.txt` file will be noticed by repo2docker and used to install additional libraries, augmenting
+the default environment. Once completed: An image of the pod is saved to skip (re-)building as long as the source material does
+not change. That is: This image is tagged with the github commit time so (on launch) if the repo hasn’t changed the image won’t 
+get rebuilt. As the image is based on the github tag (not on the user) multiple users can click the same link and each person 
+gets a duplicate environment on their own pod." -Scott Henderson
+
 
 I want my repository to be available in binder! For two reasons! First it is a test of the portability of my 
 repository as a working space. Second it allows me (when it works) to share my work with other people at a single
@@ -99,7 +109,7 @@ click with no authentication.
 
 
 I would prefer to configure the binder pod using `environment.yml` rather than `requirements.txt`. The latter 
-uses `pip` and the former uses the `conda` package manager.  Here is my `environment.yml` configuration file: 
+uses `pip` and the former uses the `conda` package manager.  Here is my example `environment.yml` configuration file: 
 
 
 ```
@@ -121,30 +131,31 @@ dependencies:
 
 
 
-My repo (on GitHub) is called `badger` and my GitHub 
-username is `norbert314`. I want to use the `master` branch of this repo. I want to make use of the `mybinder.org` binder
-service. This is sufficient information; I now have two paths that I can follow. On the first path I simply use
-the wizard provided at the [binder.org website](https://mybinder.org). This is a manual process and when
-completed I will find myself in a binder session with a copy of my repository present. 
+My repo (on GitHub) is called `rca2binder` and my GitHub 
+organization is called `cormorack`. I will use the `master` branch of this repo. I will use the `mybinder.org` binder
+service. This is sufficient information to proceed. (If I try to use the `pangeo` binder instance this is going to be
+*JupyterLab* and widgets will not work. Since I want to make use of widgets I will stay with the free `mybinder`
+service. This in turn means that I'm not doing any dask at-scale computing for now. 
+
+First path:
+
+* Visit the wizard at the [binder.org website](https://mybinder.org)
+  * A manual process leading to a binder session with a copy of my repository present 
+
+Second path: 
+
+* Go direct from GitHub to binder using the badge link
+  * Install a *badge* directly into my repository `rca2binder`
+    * This auto-launches the repository in binder
+  * Cause the binder session to pre-install software packages that my code needs
+  * Pre-load a modest-sized dataset into the binder environment
+    * Without having to store a copy of that data in the GitHub repository
 
 
-The second path has three improvements over the first. First I will install a *badge* directly into my 
-repository `badger` which will auto-launch the repository (`badger`) in binder. That is: The ***open in binder*** 
-badge will work within my repo for anyone to use. We'll call this Cool Feature 1. Secondly we want the
-binder session to pre-install software packages that are used by the code in my repository. That
-will be Cool Feature 2. Thirdly we want to pre-load a modest-sized dataset into the binder session
-without having to store a copy of that data in the GitHub repository. Behold Cool Feature 3.
-
-
-Before detailing these three cool features (including how to build them) we have a brief intermezzo
-intended to frame 'how I should think about binder'. 
+Before going into detail: First a brief intermezzo on how one can think about binder. 
 
 
 #### Conceptual basis
-
-flag Before getting into the three cool features (badges, package installation, data inclusion) let's review
-a working understanding of what's going on with binder. 
-
 
 This needs to indicate the binder registry both in regards spin up time and re-building the image when
 the hash changes; so what changes the hash and what doesn't? How can I use binder as a sanity check on 

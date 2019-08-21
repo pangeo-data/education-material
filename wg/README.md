@@ -15,6 +15,20 @@ This event is included in pangeo-ed owing to the wealth of resources that were g
 We need to identify events and resources that become available from events of this sort to include them in the 
 
 
+### August 21 22 23 pangeo community meeting UW Alder Hall
+
+* Leading Open Questions on Education
+  * "What is unclear or perhaps confusing about pangeo?" as path to "Who and what and how is pangeo teaching?"
+  * How should the pangeo Education WG play a role in testing pangeo tech?
+  * Does "publications = evidence of pangeo impact" motivate "What should the pangeo team emphasize today?" (Education, *)
+  * Value of "Get dataset X wired into pangeo"  
+    * Idea is to motivate scientists who use X to migrate to pangeo
+    * What is { X } ? 
+    * Process to select and import X? 
+    * Should Pangeo Ed teach you how to import your own X?
+* 30 minute intro 4pm day 1
+* Thursday
+* Friday
 
 ### June 4 2019 start call
 

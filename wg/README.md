@@ -26,7 +26,7 @@ We need to identify events and resources that become available from events of th
     * What is { X } ? 
     * Process to select and import X? 
     * Should Pangeo Ed teach you how to import your own X?
-* 30 minute intro 4pm day 1
+* Wednesday 4pm
 * Thursday
 * Friday
 

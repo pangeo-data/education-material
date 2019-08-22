@@ -12,7 +12,7 @@ table summarizes POET current and future projects.
 
 
 | Project | Description (Leads) |
-| -------- | ----------- |
+| ----------------- | ----------- |
 | Pangeo Core | Develop a core curriculum for pangeo; emphasis on *by reference* (e.g. 'use Jake') rather than *ab initio*; and emphasis as well on "What are the learning outcomes?" and "3 essential things" rather than "20 good things to have" (Anthony, ...) |
 | Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
 | Scientist Case Studies | description (leads) |

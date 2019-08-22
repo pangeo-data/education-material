@@ -1,14 +1,26 @@
-# POET Working Group (**P**angeo **O**utreach **E**ducation **T**raining) 
+# POET Working Group 
+## **P**angeo **O**utreach **E**ducation **T**raining 
 
-## draft purpose
+### draft purpose
 
-Pangeo is taken as a community coordination effort 'scientists, software, compute infrastructure'. Pangeo education 
-has components thereby: Provide learning paths to research scientists without reinventing wheels, 
-provide software publication support for domain scientists, support curriculum work... and so on.
+POET is a learning and advocacy working group within the pangeo community. For our purposes the pangeo community 
+includes scientists, technology specialists and educators working together to facilitate and democratize data science 
+at scale. Pangeo's initial emphasis is in the earth science disciplines but has since expanded to include other 
+domains including neuroscience and astronomy. The challenge of learning and advocacy across such a broad research
+landscape necessitates a project-based approach within a larger framework of goals and objectives. The following
+table summarizes POET current and future projects. 
 
-# history recent first
+
+| Project | Description (Leads) |
+| -------- | ----------- |
+| Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
+| Scientist Case Studies | description (leads) |
+| Tire Kicker | Run through our references (main page table) as students; provide feedback and/or reviews (Rob, ...)  |
 
 
+
+
+# Source notes
 
 ## August 21 22 23 pangeo community meeting UW Alder Hall
 

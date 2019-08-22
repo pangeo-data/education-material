@@ -27,6 +27,17 @@ provide software publication support for domain scientists, support curriculum w
 
 ### Thursday Aug 22
 
+- Anthony: Expand on what we have as a starting point; += 
+- Robin: Training, using Jupyter notebooks; recreate climate science figures
+- Shean: I have to teach now; examples that bridge the gap between small to large scale problems
+- Amanda: Only 5 AGU abstracts from pangeo; how do we expand outside this core user grou3 years in!
+- Deepak: NCAR, xarray
+- Phil Austin: UBC, invested in Jupyter, 12000 accounts; curriculum, 
+- Elizabeth Marroon: Teaching data analysis; students
+- Lindsey Heagy: Postdoc geophysics Jupyter team: Community around educational resources; hacks; like geosci; not reinvent base level stuff
+- Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
+- Chris at UCB on Jupyter; two interesting things: How do you define the pattern of shared infrastructure to improve educational outcomes; and using the pangeo stack as highlighting the benefit of the massive resources; so hearts and minds buying into these platforms; and then what are things we could build that facilitate learning. The dask scheduler widget popup being an example. 
+- Dax: QC-CUNY. Teaching faculty how to access OOI data using Jupyter; PI on grant on Project Eddy: Data-driven pedagogies. Student pathway from novice to self-sufficient. Data science as core of liberal arts. 
 - Your Question Here
 - RA suggests a (living dynamic) book with sections for scientists and for administrators
 - RA suggeests finding a better communication method than GitHub per "I will never ask a question on GitHub"

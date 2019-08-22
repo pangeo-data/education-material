@@ -3,9 +3,8 @@
 ## draft purpose
 
 Pangeo is taken as a community coordination effort 'scientists, software, compute infrastructure'. Pangeo education 
-has three components thereby: Provide learning paths to research scientists without reinventing wheels, 
-provide software publication support for domain scientists, and support curriculum work. There are two 
-conceptual artifacts we need to keep in focus: 
+has components thereby: Provide learning paths to research scientists without reinventing wheels, 
+provide software publication support for domain scientists, support curriculum work... and so on.
 
 # history recent first
 

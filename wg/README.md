@@ -38,6 +38,50 @@ provide software publication support for domain scientists, support curriculum w
 - Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
 - Chris at UCB on Jupyter; two interesting things: How do you define the pattern of shared infrastructure to improve educational outcomes; and using the pangeo stack as highlighting the benefit of the massive resources; so hearts and minds buying into these platforms; and then what are things we could build that facilitate learning. The dask scheduler widget popup being an example. 
 - Dax: QC-CUNY. Teaching faculty how to access OOI data using Jupyter; PI on grant on Project Eddy: Data-driven pedagogies. Student pathway from novice to self-sufficient. Data science as core of liberal arts. 
+
+
+- Curated bootstrapping list seems a consensus concept
+  - Jake's book as an example 
+  - Core track 3 must-do
+  - Pedagogy notebook that does some reverse engineering
+- What does it mean to teach pangeo? (AT)
+  - It is all these tools; 
+  - AA: What are the learning outcomes; take a pedagogical approach
+  - Dax: UNIX as context really helps build the context web going into Python  
+
+TASK: Develop a core curriculum for learning pangeo (AA)
+
+
+Deep: It is stuff for scientists; then pangeo for sysadmins. Ultimately helping... 
+
+DS: If we're trying to teach datascience you don't need a 5TB datacenter. People don't need dask clusters. 
+
+Rob: I think pangeo is a community teaching service...
+
+Lindsey: Who is the first group as target audience? (Scientists!) 
+
+Lindsey: Case history or use-case driven approach. (This is what Joe suggested also) 
+
+TASK: Phil: September teaching a PBL class: Includes all-comers sessions. 15-20 supernumeraries: So this is our first registered project. 
+
+DS: "I am here, here is what I want to do..." decision tree. decision shrub. 
+
+Chris: DAG yml file 
+
+TASK: DAG per Chris, Shean
+
+Chris: How do we generate organized feedback into the organization? 
+
+Lindsey: Get multiple people contributing in a coherent way. The Case History driven approach gets to a framework: Same 7 steps. This suggests
+
+TASK: Lindsey: Common framework for a pangeo case history. Perhaps two kinds: Analysis template and technical template. 
+
+
+
+
+
+
+
 - Your Question Here
 - RA suggests a (living dynamic) book with sections for scientists and for administrators
 - RA suggeests finding a better communication method than GitHub per "I will never ask a question on GitHub"

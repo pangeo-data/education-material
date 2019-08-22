@@ -7,32 +7,74 @@ has three components thereby: Provide learning paths to research scientists with
 provide software publication support for domain scientists, and support curriculum work. There are two 
 conceptual artifacts we need to keep in focus: 
 
-## history recent first
+# history recent first
 
-### June 17-21 Icesat 2 Hackweek at UW
+
+
+## August 21 22 23 pangeo community meeting UW Alder Hall
+
+### Wednesday 4pm Aug 21
+
+- Leading Open Questions on Education
+  - "What is unclear or perhaps confusing about pangeo?" as path to "Who and what and how is pangeo teaching?"
+  - How should the pangeo Education WG play a role in testing pangeo tech?
+  - Does "publications = evidence of pangeo impact" motivate "What should the pangeo team emphasize today?" (Education, *)
+  - Value of "Get dataset X wired into pangeo"  
+    - Idea is to motivate scientists who use X to migrate to pangeo
+    - What is { X } ? 
+    - Process to select and import X? 
+    - Should Pangeo Ed teach you how to import your own X?
+
+
+### Thursday Aug 22
+
+- Your Question Here
+- Suggest two concrete elements
+  - Create a POET ***project registration***: hermetic units
+    - For example: Tire kicking to review resource links
+  - Organize thinking in terms of **strategy** versus **tactics**
+    - **strategy**: cull through Teaching Tech Together, How Learning Works to build a POET Best Practices Guide
+    - **tactics**: Create a set of benchmarks for pangeo running a standard job to answer "How fast/powerful is pangeo?"
+- Discussion questions
+  - What is pangeo? ---> Who, what, how does pangeo teach? 
+  - How should POET test pangeo?
+  - Are pubs evidence of impact?...
+    - ...how might this motivate POET focus today
+  - Data canon
+    - Comment on the value of "Get dataset X wired into pangeo" 
+      - Will this motivate scientists who use X to migrate to pangeo? 
+    - What is the set { X1, X2, X3, ... }? 
+    - Process to select and import X? 
+    - Should Pangeo Ed teach how to import some X?
+- Repo is http://github.com/pangeo-data/education-materials
+  - Currently in three parts... pedagogy { cloud, core, git, pod, virtualenv} , wg, README mapping
+  - More repos?
+- Enrollment: Who is in POET voluntarily? Involuntarily?
+- What are target proposals?
+  - Who can we work with? e.g. UW SoO/APL + OOI RCA is a good candidate
+  - Past: NSF 19-524 
+- Lindsey Heagy: Jupyter Community Workshop proposal
+- Six month time frame: Milestones
+- Designated PM or PMs
+- Teaching itinerary
+- Recording progress: Importance of, how to
+- What’s missing here? How do you see improving organization? 
+- Review related open GitHub issues ()
+  - Issue #521 at pangeo-data/pangeo: Glacier model proposal by fmaussion: Follow-up?
+  - Issue #440 at pangeo-data/pangeo: Resources for education events: We need an owner for this sub-topic (especially load testing)
+  - Issues #411 and #575 require review with follow-up with contributors >> Game Plan
+  
+* Friday
+
+
+## June 17-21 Icesat 2 Hackweek at UW
 
 This event is included in pangeo-ed owing to the wealth of resources that were generated in support of the event.
 We need to identify events and resources that become available from events of this sort to include them in the 
 
+## June 4 2019 start call
 
-### August 21 22 23 pangeo community meeting UW Alder Hall
-
-* Leading Open Questions on Education
-  * "What is unclear or perhaps confusing about pangeo?" as path to "Who and what and how is pangeo teaching?"
-  * How should the pangeo Education WG play a role in testing pangeo tech?
-  * Does "publications = evidence of pangeo impact" motivate "What should the pangeo team emphasize today?" (Education, *)
-  * Value of "Get dataset X wired into pangeo"  
-    * Idea is to motivate scientists who use X to migrate to pangeo
-    * What is { X } ? 
-    * Process to select and import X? 
-    * Should Pangeo Ed teach you how to import your own X?
-* Wednesday 4pm
-* Thursday
-* Friday
-
-### June 4 2019 start call
-
-#### Present *or* contributing
+### Present *or* contributing
 
 * Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
 * Ryan Abernathy (@rabernat) Columbia
@@ -43,10 +85,8 @@ We need to identify events and resources that become available from events of th
 * Scott Henderson (@scottyhq) UW eScience 
 * Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
 
-#### pending follow-on
+### pending follow-on
 
-- (Rob) notes from this call and schedule next call; sprint schedule
-- (Rob) Create workspace and deliverables list
 - Review related open GitHub issues ()
   - Issue #521 at pangeo-data/pangeo: Glacier model proposal by fmaussion: Follow-up?
   - Issue #440 at pangeo-data/pangeo: Resources for education events: We need an owner for this sub-topic (especially load testing)

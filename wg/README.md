@@ -13,26 +13,36 @@ table summarizes POET current and future projects.
 
 | Project | Description (Leads) |
 | -------- | ----------- |
-| Pangeo Core | Develop a core curriculum for pangeo; emphasis "What are the learning outcomes?" and "3 key things" rather than "20 good things to have" (Anthony, ...) |
+| Pangeo Core | Develop a core curriculum for pangeo; emphasis on *by reference* (e.g. 'use Jake') rather than *ab initio*; and emphasis as well on "What are the learning outcomes?" and "3 essential things" rather than "20 good things to have" (Anthony, ...) |
 | Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
 | Scientist Case Studies | description (leads) |
 | Tire Kicker | Review references (main table); produce reviews and feedback (Rob, ...)  |
 | Maintain | Per [Issue 5](https://github.com/pangeo-data/education-material/issues/5) and this related [Discourse issue](https://discourse.jupyter.org/t/testing-notebooks/701) we have an open challenge (leads) |
-| The Book | Jupytext... Jupyter Book... mods? and etcetera (Chris, Phil, ...) |
+| The Book | Jupytext... Jupyter Book... mods? and etcetera. Support proposal possible. (Lindsey, Chris, Phil, ...) |
 | Help | [Discourse](https://discourse.jupyter.org) as a forum alternative to GitHub (leads) |
+| Post-launch QA/QC | Now that you've gotten training, gotten on the platform, are excited about using pangeo: How do we keep you airborn and moving forward? Addressing the transition from 'Pangeo: I get it' to 'Pangeo is what I use'. (Ariel) |
+| Data publication 1 | cf Ryan's white paper idea. Integration with STAC. How do I do it? What is important: Being on the cloud? Being in COG or ZARR format? How much metadata is enough metadata? (leads) |
+| Data publication 2 | What should NASA publish on the public cloud? NOAA? EPA? ...etc... (Joe, Ryan, Chelle) |
+| Package authorship | description (leads) | 
+| Lightning in a bottle | Now that we have a success let's capture that into the history of pangeo (Erin) |
+| What GPU Don't Know Can Slow You Down | description (Matt) |
+| Education event streamlining | what we already do informally: Does it need improvement? (leads) |
+| Binder | Practical considerations and details on sharing notebooks effectively (Rob) |
 
 
-# Persons 
+# POETs  
 
 * Ryan Abernathy (Columbia)
 * Anthony Arendt (UW)
 * Phil Austin (UBC)
 * Deepak 
+* Erin
 * Rob Fatland (UW)
 * Chris Holdgraf (UCB)
 * Julia (NCAR) 
 * Lindsey Heagy (UCB)
 * Robin (IPCC)
+* Ariel Rokem (UW)
 * Elizabeth Maroon
 * David Shean (UW)
 * Dax Soule (QC-CUNY)
@@ -41,7 +51,6 @@ table summarizes POET current and future projects.
 
 
 # Source notes
-
 
 ## August 21 22 23 pangeo community meeting UW Alder Hall
 
@@ -71,7 +80,6 @@ table summarizes POET current and future projects.
 - Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
 - Chris at UCB on Jupyter; two interesting things: How do you define the pattern of shared infrastructure to improve educational outcomes; and using the pangeo stack as highlighting the benefit of the massive resources; so hearts and minds buying into these platforms; and then what are things we could build that facilitate learning. The dask scheduler widget popup being an example. 
 - Dax: QC-CUNY. Teaching faculty how to access OOI data using Jupyter; PI on grant on Project Eddy: Data-driven pedagogies. Student pathway from novice to self-sufficient. Data science as core of liberal arts. 
-
 
 - Curated bootstrapping list seems a consensus concept
   - Jake's book as an example 
@@ -141,18 +149,8 @@ $200k / PB / year. Phil brings up HPC versus cloud thing; demonstrating pangeo t
 
 Ariel: Carpentries are a super-helpful entry point. But what about the day after the workshop. Using effectively after you are airborne. 
 
-
-
-
-- Your Question Here
-- RA suggests a (living dynamic) book with sections for scientists and for administrators
-- RA suggeests finding a better communication method than GitHub per "I will never ask a question on GitHub"
-- Suggest two concrete elements
-  - Create a POET ***project registration***: hermetic units
-    - For example: Tire kicking to review resource links
-  - Organize thinking in terms of **strategy** versus **tactics**
-    - **strategy**: cull through Teaching Tech Together, How Learning Works to build a POET Best Practices Guide
-    - **tactics**: Create a set of benchmarks for pangeo running a standard job to answer "How fast/powerful is pangeo?"
+- RA: Living dynamic Jupyter book for { scientists, administrators }
+- "I will never ask a question on GitHub" help desk problem
 - Discussion questions
   - What is pangeo? ---> Who, what, how does pangeo teach? 
   - How should POET test pangeo?

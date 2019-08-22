@@ -13,8 +13,7 @@ table summarizes POET current and future projects.
 
 | Project | Description (Leads) |
 | -------- | ----------- |
-| Pangeo Core | Develop a core curriculum for pangeo; emphasis "What are the learning outcomes?" 
-and "3 key things" rather than "20 good things to have" (Anthony, ...) |
+| Pangeo Core | Develop a core curriculum for pangeo; emphasis "What are the learning outcomes?" and "3 key things" rather than "20 good things to have" (Anthony, ...) |
 | Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
 | Scientist Case Studies | description (leads) |
 | Tire Kicker | Review references (main table); produce reviews and feedback (Rob, ...)  |

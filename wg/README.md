@@ -76,8 +76,37 @@ Lindsey: Get multiple people contributing in a coherent way. The Case History dr
 
 TASK: Lindsey: Common framework for a pangeo case history. Perhaps two kinds: Analysis template and technical template. 
 
+[example from em](https://em.geosci.xyz/content/case_histories/mt_isa/index.html)
 
 
+Anthony: Given 3 days to teach pangeo... thought experiment. 
+
+Example: Laptop is swapping, 2000 satellite images, where do I go next? 
+
+
+TASK: Ryan's book. Phil: Jupytext. You never check notebooks in. You check Python in. 
+
+Chris: Agree on Jupytext. Automatic 2-way synch. Work in nb, save, saves in Python or MD. Add to .ignore anything that ends in ipynb. Also Ryan mentioned JupyterBook: Jupytext uner the hood is something he'd been meaning to add. 
+
+Phil: Cross-referencing also needed. This is a green light that such a book is feasible. 
+
+Lindsey: There are Jupyter community workshops. Did a sprint and wrote a book in 3 days. 80% of the work got done in three days. Set aside critical days and critical mass. Bring 15 people. 
+
+
+Robin: Looking to transition into Python from MATLAB. Echo make an HTML website. There is a marketing aspect to this: Demonstrating the sort of things you can do with this. Panopto. MAke the case that it is worth the time and effort to invest to learn. Think about media: Webinars, video; as easy as possible for the overwhelmed and the lazy. 
+
+Phil: Matt Rocklin has mastered the short screencast: Less than four minutes. Link below on the YouTube channel that sends you to his notebook. 
+
+CESM has a forum... "Help I don't know what's going on..." (Elizabeth). Jupyter uses a platform called DISCOURSE. From Discourse to issues as needed. Safer place to have conversations. Breaks out of the power dynamic of GitHub: Devs and Plebes. 
+
+
+Rob: Data publication
+
+Ryan's white paper idea
+
+$200k / PB / year. Phil brings up HPC versus cloud thing; demonstrating pangeo tech works rather than cloud works. Certain data has to be in house. AA: Similar for NASA HIMAT. Had we had pangeo. 
+
+Ariel: Carpentries are a super-helpful entry point. But what about the day after the workshop. Using effectively after you are airborne. 
 
 
 

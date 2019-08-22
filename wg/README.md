@@ -28,26 +28,28 @@ table summarizes POET current and future projects.
 | What GPU Don't Know Can Slow You Down | description (Matt) |
 | Education event streamlining | what we already do informally: Does it need improvement? (leads) |
 | Binder | Practical considerations and details on sharing notebooks effectively (Rob) |
+| Pangeo education proposal | description (Lindsey) |
 
 
 # POETs  
 
-* Ryan Abernathy (Columbia)
-* Anthony Arendt (UW)
-* Phil Austin (UBC)
+* Ryan Abernathy (@rabernat) Columbia
+* Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
+* Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
 * Deepak 
 * Erin
-* Rob Fatland (UW)
-* Chris Holdgraf (UCB)
-* Julia (NCAR) 
-* Lindsey Heagy (UCB)
-* Robin (IPCC)
-* Ariel Rokem (UW)
+* Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
+* Joe Hamman (@jhamman) NCAR
+* Scott Henderson (@scottyhq) UW eScience 
+* Chris Holdgraf UCBerkeley
+* Julia NCAR 
+* Lindsey Heagy UCBerkeley
+* Robin IPCC
+* Ariel Rokem UW eScience
 * Elizabeth Maroon
-* David Shean (UW)
-* Dax Soule (QC-CUNY)
-* Amanda Tan (UW)
-
+* David Shean UW Civil Engineering
+* Dax Soule (@daxsoule) QCNY
+* Amanda Tan (@amanda-tan) UW eScience
 
 
 # Source notes
@@ -190,16 +192,7 @@ We need to identify events and resources that become available from events of th
 
 ## June 4 2019 start call
 
-### Present *or* contributing
 
-* Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
-* Ryan Abernathy (@rabernat) Columbia
-* Dax Soule (@daxsoule) QCNY
-* Joe Hamman (@jhamman) NCAR
-* Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
-* Amanda Tan (@amanda-tan) UW eScience
-* Scott Henderson (@scottyhq) UW eScience 
-* Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
 
 ### pending follow-on
 

@@ -28,7 +28,7 @@ table summarizes POET current and future projects.
 | What GPU Don't Know Can Slow You Down | description (Matt) |
 | Education event streamlining | what we already do informally: Does it need improvement? (leads) |
 | Binder | Practical considerations and details on sharing notebooks effectively (Rob) |
-| Pangeo education proposal | description (Lindsey) |
+| Jupyter Community Workshop proposal for pangeo | description (Lindsey) |
 
 
 # POETs  

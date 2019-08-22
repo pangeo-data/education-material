@@ -13,14 +13,36 @@ table summarizes POET current and future projects.
 
 | Project | Description (Leads) |
 | -------- | ----------- |
+| Pangeo Core | Develop a core curriculum for pangeo; emphasis "What are the learning outcomes?" 
+and "3 key things" rather than "20 good things to have" (Anthony, ...) |
 | Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
 | Scientist Case Studies | description (leads) |
-| Tire Kicker | Run through our references (main page table) as students; provide feedback and/or reviews (Rob, ...)  |
+| Tire Kicker | Review references (main table); produce reviews and feedback (Rob, ...)  |
+| Maintain | Per [Issue 5](https://github.com/pangeo-data/education-material/issues/5) and this related [Discourse issue](https://discourse.jupyter.org/t/testing-notebooks/701) we have an open challenge (leads) |
+| The Book | Jupytext... Jupyter Book... mods? and etcetera (Chris, Phil, ...) |
+| Help | [Discourse](https://discourse.jupyter.org) as a forum alternative to GitHub (leads) |
 
+
+# Persons 
+
+* Ryan Abernathy (Columbia)
+* Anthony Arendt (UW)
+* Phil Austin (UBC)
+* Deepak 
+* Rob Fatland (UW)
+* Chris Holdgraf (UCB)
+* Julia (NCAR) 
+* Lindsey Heagy (UCB)
+* Robin (IPCC)
+* Elizabeth Maroon
+* David Shean (UW)
+* Dax Soule (QC-CUNY)
+* Amanda Tan (UW)
 
 
 
 # Source notes
+
 
 ## August 21 22 23 pangeo community meeting UW Alder Hall
 
@@ -45,7 +67,7 @@ table summarizes POET current and future projects.
 - Amanda: Only 5 AGU abstracts from pangeo; how do we expand outside this core user grou3 years in!
 - Deepak: NCAR, xarray
 - Phil Austin: UBC, invested in Jupyter, 12000 accounts; curriculum, 
-- Elizabeth Marroon: Teaching data analysis; students
+- Elizabeth Maroon: Teaching data analysis; students
 - Lindsey Heagy: Postdoc geophysics Jupyter team: Community around educational resources; hacks; like geosci; not reinvent base level stuff
 - Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
 - Chris at UCB on Jupyter; two interesting things: How do you define the pattern of shared infrastructure to improve educational outcomes; and using the pangeo stack as highlighting the benefit of the massive resources; so hearts and minds buying into these platforms; and then what are things we could build that facilitate learning. The dask scheduler widget popup being an example. 

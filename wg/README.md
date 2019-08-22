@@ -1,4 +1,4 @@
-# Working Group 
+# POET Working Group (**P**angeo **O**utreach **E**ducation **T**raining) 
 
 ## draft purpose
 

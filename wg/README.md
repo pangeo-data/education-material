@@ -28,6 +28,8 @@ provide software publication support for domain scientists, support curriculum w
 ### Thursday Aug 22
 
 - Your Question Here
+- RA suggests a (living dynamic) book with sections for scientists and for administrators
+- RA suggeests finding a better communication method than GitHub per "I will never ask a question on GitHub"
 - Suggest two concrete elements
   - Create a POET ***project registration***: hermetic units
     - For example: Tire kicking to review resource links

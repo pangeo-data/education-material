@@ -29,6 +29,7 @@ table summarizes POET current and future projects.
 | Education event streamlining | what we already do informally: Does it need improvement? (leads) |
 | Binder | Practical considerations and details on sharing notebooks effectively (Rob) |
 | Jupyter Community Workshop proposal for pangeo | description (Lindsey) |
+| DAG YML Decision Shrub | description (Chris) |
 
 
 # POETs  
@@ -37,12 +38,12 @@ table summarizes POET current and future projects.
 * Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
 * Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
 * Deepak 
-* Erin
+* Erin Dougherty
 * Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
 * Joe Hamman (@jhamman) NCAR
 * Scott Henderson (@scottyhq) UW eScience 
 * Chris Holdgraf UCBerkeley
-* Julia NCAR 
+* Julia Kent NCAR 
 * Lindsey Heagy UCBerkeley
 * Robin IPCC
 * Ariel Rokem UW eScience

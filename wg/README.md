@@ -18,7 +18,7 @@ table summarizes POET current and future projects.
 | Scientist Case Studies | description (leads) |
 | Tire Kicker | Review references (main table); produce reviews and feedback (Rob, ...)  |
 | Maintain | Per [Issue 5](https://github.com/pangeo-data/education-material/issues/5) and this related [Discourse issue](https://discourse.jupyter.org/t/testing-notebooks/701) we have an open challenge (leads) |
-| The Book | Jupytext... Jupyter Book... mods? and etcetera. Support proposal possible. (Lindsey, Chris, Phil, ...) |
+| The Book | Jupytext... Jupyter Book... mods? and etcetera. Support proposal possible. (Ryan, Ryan's sprint crew, plus Lindsey, Chris, Phil, ...) |
 | Help | [Discourse](https://discourse.jupyter.org) as a forum alternative to GitHub (leads) |
 | Post-launch QA/QC | Now that you've gotten training, gotten on the platform, are excited about using pangeo: How do we keep you airborn and moving forward? Addressing the transition from 'Pangeo: I get it' to 'Pangeo is what I use'. (Ariel) |
 | Data publication 1 | cf Ryan's white paper idea. Integration with STAC. How do I do it? What is important: Being on the cloud? Being in COG or ZARR format? How much metadata is enough metadata? (leads) |

@@ -1,0 +1,1 @@
+This repo contains several notebooks and markdown files that will help a user bring their own dataset to Pangeo, store them on object storage (steps for AWS s3 and Google Cloud Storage are included) and get started with some simple time series analysis. 

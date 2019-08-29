@@ -1,14 +1,51 @@
 # POET Working Group 
 ## **P**angeo **O**utreach **E**ducation **T**raining 
 
-### draft purpose
+### Statement of Purpose
 
-POET is a learning and advocacy working group within the pangeo community. For our purposes the pangeo community 
-includes scientists, technology specialists and educators working together to facilitate and democratize data science 
-at scale. Pangeo's initial emphasis is in the earth science disciplines but has since expanded to include other 
-domains including neuroscience and astronomy. The challenge of learning and advocacy across such a broad research
-landscape necessitates a project-based approach within a larger framework of goals and objectives. The following
-table summarizes POET current and future projects. 
+The POET working group helps researchers and others accurately perceive and benefit from the pangeo program.
+The following narrative uses 'we' to presumptively mean 'members of the pangeo community'.
+
+
+**First organizing principle** How we describe pangeo really depends on context; and we begin here with two 
+flavors of description that address both the broad community of data scientists and the narrower scope of 
+Big Data (say by Volume) research computing. 
+
+
+First description: Pangeo is taken to be a community of tool-builders and therefore resulting tools. These tools enable 
+us to do data science more effectively; so to the person approaching pangeo we can answer 'What is pangeo?' 
+with an invitation to participate. 'Pangeo is tool-builder scientists and -- good news -- you are invited to join, 
+participate, benefit, and contribute.' This incorporates the practical idea that not all data-driven research depends
+upon having a dask scheduler that fires up a 100-VM cluster.
+
+
+Now to a second description: Pangeo is a set of cloud-based technologies -- really a platform and a 
+computing ecosystem -- that take advantage of cloud scale to enable large-scale computation: In geoscience
+and as it grows in other domains such as astronomy and neuroscience.
+
+
+Let's see how well we can make use of these two stock answers and continue to more POET considerations.
+
+
+As the 'learning and advocacy working group' within the pangeo community, POETs are first confronted with the task of
+organizing information -- including training materials -- into a findable and usable format. This is why the education-materials
+repo maintains the resource table on its front page (and pushes the working group machinery to here). Let's conclude this
+section with a second organizing principle, the first being the "two answers" given above. 
+
+
+**Second organizing principle** So you are a scientist inbound to pangeo. Where do you go and where does your data go? 
+Should you copy it from Cheyenne to AWS? Should you just pip install pangeo on the Google cloud? This is the big 
+information organizing task that falls to POETs. So get to work. 
+
+
+
+## Pangeo technical framework
+
+
+This section needs written. 
+
+
+## POETs topics and action items
 
 
 | Project | Description (Leads) |

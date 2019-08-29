@@ -8,8 +8,8 @@
 
 # This README...
 
-...is dedicated to the resources table you will find directly below. For POET, the Pangeo Outreach Education Training working 
-group, please click on the poets folder above.
+...is dedicated to the resources table you will find directly below. For the Pangeo Outreach Education Training working 
+group, please click on the ***wg*** folder found up above.
 
 
 # Education Material

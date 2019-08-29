@@ -6,6 +6,12 @@
 
 --Joel Spolsky, on the [Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
+# This README...
+
+...is dedicated to the resources table you will find directly below. For POET, the Pangeo Outreach Education Training working 
+group, please click on the poets folder above.
+
+
 # Education Material
 
 This repository is for pointers and descriptions of existing educational material: For learning and using the Pangeo 

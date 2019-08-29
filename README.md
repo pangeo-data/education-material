@@ -9,7 +9,8 @@
 # This README...
 
 ...is dedicated to the resources table you will find directly below. For the Pangeo Outreach Education Training working 
-group, please click on the ***wg*** folder found up above.
+group, please click on the 
+[***wg*** folder found up above](https://github.com/pangeo-data/education-material/tree/master/wg).
 
 
 # Education Material

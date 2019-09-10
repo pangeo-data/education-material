@@ -25,7 +25,8 @@ Please tunnel into the sub-folders for organizing material.
 | https://github.com/pangeo-data/pangeo-tutorial-agu-2018 | Pangeo Tutorial for the AGU 2018 meeting |
 | https://github.com/pangeo-data/pangeo-tutorial-sea-2018 | Pangeo Tutorial for the NCAR Software Engineering Assembly Workshop 2018 |
 | https://github.com/pangeo-data/pangeo-example-notebooks | Pangeo Notebook Gallery with various simple or real science examples |
-| https://rabernat.github.io/research_computing_2018/ | @rabernat's Research Computing in Earth Sciences course |
+| ~https://rabernat.github.io/research_computing_2018/~ | ~@rabernat's Research Computing in Earth Sciences course~ |
+| http://earth-env-data-science.github.io | Latest iteration of @rabernat's intro to python "book" |
 | https://github.com/robfatland/synoptic | @robfatland's synoptic notebooks on connecting RCO to other data |
 | https://github.com/robfatland/gallery | @robfatland's gallery of geoscience example notebooks |
 | https://github.com/pangeo-data/cmr | @robfatland's CMR-oriented notebooks; with golive and bootstrapping |

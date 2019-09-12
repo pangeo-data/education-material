@@ -39,4 +39,4 @@ Please tunnel into the sub-folders for organizing material.
 | https://the-turing-way.com | A lightly opinionated guide to reproducible data science |
 | https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin |
 | https://docs.google.com/spreadsheets/d/1mUd-MPCdhNw4fPcQFZmE8YPP1hmuR8VYbGrzyfuOMrY/edit#gid=0 | ESIP workshop feedback sheet |
-
+| https://github.com/kthyng/python4geosciences | Python for Geosciences course taught at Texas A&M |

@@ -1,4 +1,4 @@
-# POET Working Group 
+# POETs Working Group 
 ## **P**angeo **O**utreach **E**ducation **T**raining 
 
 ### Statement of Purpose

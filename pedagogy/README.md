@@ -1,5 +1,11 @@
 # pedagogy
 
+## purpose
+
+This folder and its sub-folders are the accumulation zone for initial pangeo-ed content. "Process" work is more 
+for the `wg` working group folder parallel to this `pedagogy` folder.
+
+
 ## community estimation
 
 AGU fall meeting attendance of (say) 25,000 attendees implies a global academic geoscience population of 

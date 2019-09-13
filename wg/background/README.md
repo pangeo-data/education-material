@@ -1,129 +1,14 @@
-# POETs Working Group 
-
-## **P**angeo **O**utreach **E**ducation **T**raining 
-
-### Statement of Purpose
-
-
-The POET working group helps researchers and others accurately perceive and benefit from the pangeo program.
-The following narrative uses 'we' to presumptively mean 'members of the pangeo community'.
-
-
-**First organizing principle** How we describe pangeo really depends on context; and we begin here with two 
-flavors of description that address both the broad community of data scientists and the narrower scope of 
-Big Data (say by Volume) research computing. 
-
-
-First description: Pangeo is taken to be a community of tool-builders and therefore resulting tools. These tools enable 
-us to do data science more effectively; so to the person approaching pangeo we can answer 'What is pangeo?' 
-with an invitation to participate. 'Pangeo is tool-builder scientists and -- good news -- you are invited to join, 
-participate, benefit, and contribute.' This incorporates the practical idea that not all data-driven research depends
-upon having a dask scheduler that fires up a 100-VM cluster.
-
-
-Now to a second description: Pangeo is a set of cloud-based technologies -- really a platform and a 
-computing ecosystem -- that take advantage of cloud scale to enable large-scale computation: In geoscience
-and as it grows in other domains such as astronomy and neuroscience.
-
-
-Let's see how well we can make use of these two stock answers and continue to more POET considerations.
-
-
-As the 'learning and advocacy working group' within the pangeo community, POETs are first confronted with the task of
-organizing information -- including training materials -- into a findable and usable format. This is why the education-materials
-repo maintains the resource table on its front page (and pushes the working group machinery to here). Let's conclude this
-section with a second organizing principle, the first being the "two answers" given above. 
-
-
-**Second organizing principle** So you are a scientist inbound to pangeo. Where do you go and where does your data go? 
-Should you copy it from Cheyenne to AWS? Should you just pip install pangeo on the Google cloud? This is the big 
-information organizing task that falls to POETs. So get to work. 
-
-
-
-## Pangeo technical framework
-
-
-This section needs written. 
-
-
-## POETs topics and action items
-
-
-| Project | Description (Leads) |
-| ----------------- | ----------- |
-| Pangeo Core | Develop a core curriculum for pangeo; emphasis on *by reference* (e.g. 'use Jake') rather than *ab initio*; and emphasis as well on "What are the learning outcomes?" and "3 essential things" rather than "20 good things to have" (Anthony, ...) |
-| Curriculum Case Studies | Pangeo in the classroom: How to, small scale first (Julia, Lindsey, Dax, David, Phil, ...) |
-| Scientist Case Studies | description (leads) |
-| Tire Kicker | Review references (main table); produce reviews and feedback (Rob, ...)  |
-| Maintain | Per [Issue 5](https://github.com/pangeo-data/education-material/issues/5) and this related [Discourse issue](https://discourse.jupyter.org/t/testing-notebooks/701) we have an open challenge (leads) |
-| The Book | Jupytext... Jupyter Book... mods? and etcetera. Support proposal possible. (Ryan, Ryan's sprint crew, plus Lindsey, Chris, Phil, ...) |
-| Help | [Discourse](https://discourse.jupyter.org) as a forum alternative to GitHub (leads) |
-| Post-launch QA/QC | Now that you've gotten training, gotten on the platform, are excited about using pangeo: How do we keep you airborn and moving forward? Addressing the transition from 'Pangeo: I get it' to 'Pangeo is what I use'. (Ariel) |
-| Data publication 1 | cf Ryan's white paper idea. Integration with STAC. How do I do it? What is important: Being on the cloud? Being in COG or ZARR format? How much metadata is enough metadata? (leads) |
-| Data publication 2 | What should NASA publish on the public cloud? NOAA? EPA? ...etc... (Joe, Ryan, Chelle) |
-| Package authorship | description (leads) | 
-| Lightning in a bottle | Now that we have a success let's capture that into the history of pangeo (Erin) |
-| What GPU Don't Know Can Slow You Down | description (Matt) |
-| Education event streamlining | what we already do informally: Does it need improvement? (leads) |
-| Binder | Practical considerations and details on sharing notebooks effectively (Rob) |
-| Jupyter Community Workshop proposal for pangeo | description (Lindsey) |
-| DAG YML Decision Shrub | description (Chris) |
-
-
-# POETs  
-
-* Ryan Abernathy (@rabernat) Columbia
-* Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
-* Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
-* Deepak 
-* Erin Dougherty
-* Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
-* Joe Hamman (@jhamman) NCAR
-* Scott Henderson (@scottyhq) UW eScience 
-* Chris Holdgraf UCBerkeley
-* Julia Kent NCAR 
-* Lindsey Heagy UCBerkeley
-* Robin IPCC
-* Ariel Rokem UW eScience
-* Elizabeth Maroon
-* David Shean UW Civil Engineering
-* Dax Soule (@daxsoule) QCNY
-* Amanda Tan (@amanda-tan) UW eScience
-
-
-# Source notes
-
-## August 21 22 23 pangeo community meeting UW Alder Hall
-
-### Wednesday 4pm Aug 21
-
-- Leading Open Questions on Education
-  - "What is unclear or perhaps confusing about pangeo?" as path to "Who and what and how is pangeo teaching?"
-  - How should the pangeo Education WG play a role in testing pangeo tech?
-  - Does "publications = evidence of pangeo impact" motivate "What should the pangeo team emphasize today?" (Education, *)
-  - Value of "Get dataset X wired into pangeo"  
-    - Idea is to motivate scientists who use X to migrate to pangeo
-    - What is { X } ? 
-    - Process to select and import X? 
-    - Should Pangeo Ed teach you how to import your own X?
+# Notes from June - August 2019 in original-ish format
 
 
 ### Thursday Aug 22
-
 
 - Anthony: Expand on what we have as a starting point; += 
 - Robin: Training, using Jupyter notebooks; recreate climate science figures
 - Shean: I have to teach now; examples that bridge the gap between small to large scale problems
 - Amanda: Only 5 AGU abstracts from pangeo; how do we expand outside this core user grou3 years in!
 - Deepak: NCAR, xarray
-- Phil in Dept of Earth and Ocean Sciences at UBC; UBC hosts https://ubc.syzygy.ca/ confederated JHub; 
-  so natural to branch out into grad education; run pangeo for large eddie simulation; boundary layer 
-  class for grad students in the fall: Domain-specific lectures and pangeo lectures. Invite contribution 
-  of datasets; and then apply pangeo; based from the AGU short course (near term plan); and UCAR representative: 
-  Ton of interest in Boulder last year. "AGU and UCAR are both really ready for an organization that would 
-  produce modules; to solve the pre-req problem; since bringing in young scientists and getting them up to 
-  speed is quite challenging."  
+- Phil Austin: UBC, invested in Jupyter, 12000 accounts; curriculum, 
 - Elizabeth Maroon: Teaching data analysis; students
 - Lindsey Heagy: Postdoc geophysics Jupyter team: Community around educational resources; hacks; like geosci; not reinvent base level stuff
 - Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
@@ -140,6 +25,7 @@ This section needs written.
   - Dax: UNIX as context really helps build the context web going into Python  
 
 TASK: Develop a core curriculum for learning pangeo (AA)
+
 
 Deep: It is stuff for scientists; then pangeo for sysadmins. Ultimately helping... 
 
@@ -238,6 +124,17 @@ We need to identify events and resources that become available from events of th
 
 ## June 4 2019 start call
 
+### Present *or* contributing
+
+* Philip Austin (@phaustin) Chair Atmospheric Sciences Programme at UBC EOASciences
+* Ryan Abernathy (@rabernat) Columbia
+* Dax Soule (@daxsoule) QCNY
+* Joe Hamman (@jhamman) NCAR
+* Anthony Arendt (@aaarendt) UW eScience / Applied Physics Laboratory
+* Amanda Tan (@amanda-tan) UW eScience
+* Scott Henderson (@scottyhq) UW eScience 
+* Rob Fatland (@robfatland) UW eScience/IT Research Computing Director
+
 ### pending follow-on
 
 - Review related open GitHub issues ()
@@ -285,8 +182,3 @@ Pangeo is a coordination point between scientists, software, and computing infra
     - Z2Pangeo >> Z2JHub???
     - "Focus on building better documentation elsewhere" not just += the pangeo portfolio (tag!)
     - Align with NCAR's ongoing efforts, NCL transition, etc?
-
-
-
-
- 

@@ -1,7 +1,9 @@
 # POETs Working Group 
+
 ## **P**angeo **O**utreach **E**ducation **T**raining 
 
 ### Statement of Purpose
+
 
 The POET working group helps researchers and others accurately perceive and benefit from the pangeo program.
 The following narrative uses 'we' to presumptively mean 'members of the pangeo community'.
@@ -109,12 +111,19 @@ This section needs written.
 
 ### Thursday Aug 22
 
+
 - Anthony: Expand on what we have as a starting point; += 
 - Robin: Training, using Jupyter notebooks; recreate climate science figures
 - Shean: I have to teach now; examples that bridge the gap between small to large scale problems
 - Amanda: Only 5 AGU abstracts from pangeo; how do we expand outside this core user grou3 years in!
 - Deepak: NCAR, xarray
-- Phil Austin: UBC, invested in Jupyter, 12000 accounts; curriculum, 
+- Phil in Dept of Earth and Ocean Sciences at UBC; UBC hosts https://ubc.syzygy.ca/ confederated JHub; 
+  so natural to branch out into grad education; run pangeo for large eddie simulation; boundary layer 
+  class for grad students in the fall: Domain-specific lectures and pangeo lectures. Invite contribution 
+  of datasets; and then apply pangeo; based from the AGU short course (near term plan); and UCAR representative: 
+  Ton of interest in Boulder last year. "AGU and UCAR are both really ready for an organization that would 
+  produce modules; to solve the pre-req problem; since bringing in young scientists and getting them up to 
+  speed is quite challenging."  
 - Elizabeth Maroon: Teaching data analysis; students
 - Lindsey Heagy: Postdoc geophysics Jupyter team: Community around educational resources; hacks; like geosci; not reinvent base level stuff
 - Julia, NCAR, interest in EPO from STEM; improving documentation; for ease of use; hosting tutorial for scientists; 200; from all fields; 
@@ -131,7 +140,6 @@ This section needs written.
   - Dax: UNIX as context really helps build the context web going into Python  
 
 TASK: Develop a core curriculum for learning pangeo (AA)
-
 
 Deep: It is stuff for scientists; then pangeo for sysadmins. Ultimately helping... 
 
@@ -229,8 +237,6 @@ This event is included in pangeo-ed owing to the wealth of resources that were g
 We need to identify events and resources that become available from events of this sort to include them in the 
 
 ## June 4 2019 start call
-
-
 
 ### pending follow-on
 

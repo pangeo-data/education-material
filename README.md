@@ -26,6 +26,7 @@ Please tunnel into the sub-folders for organizing material.
 | https://github.com/pangeo-data/pangeo-tutorial-sea-2018 | Pangeo Tutorial for the NCAR Software Engineering Assembly Workshop 2018 |
 | https://github.com/pangeo-data/pangeo-example-notebooks | Pangeo Notebook Gallery with various simple or real science examples |
 | https://rabernat.github.io/research_computing_2018/ | @rabernat's Research Computing in Earth Sciences course |
+| http://earth-env-data-science.github.io | Latest iteration of @rabernat's intro to python "book" |
 | https://github.com/pangeo-data/cmr | @robfatland material on the NASA Common Metadata Repository |
 | https://github.com/robfatland/synoptic | Connecting the Regional Cabled Array ocean data to other resources (ARGO, MODIS, ...) |
 | https://github.com/robfatland/gallery | Gallery of geoscience examples |

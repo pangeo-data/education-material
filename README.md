@@ -25,11 +25,12 @@ Please tunnel into the sub-folders for organizing material.
 | https://github.com/pangeo-data/pangeo-tutorial-agu-2018 | Pangeo Tutorial for the AGU 2018 meeting |
 | https://github.com/pangeo-data/pangeo-tutorial-sea-2018 | Pangeo Tutorial for the NCAR Software Engineering Assembly Workshop 2018 |
 | https://github.com/pangeo-data/pangeo-example-notebooks | Pangeo Notebook Gallery with various simple or real science examples |
-| ~https://rabernat.github.io/research_computing_2018/~ | ~@rabernat's Research Computing in Earth Sciences course~ |
+| https://rabernat.github.io/research_computing_2018/ | @rabernat's Research Computing in Earth Sciences course |
 | http://earth-env-data-science.github.io | Latest iteration of @rabernat's intro to python "book" |
-| https://github.com/robfatland/synoptic | @robfatland's synoptic notebooks on connecting RCO to other data |
-| https://github.com/robfatland/gallery | @robfatland's gallery of geoscience example notebooks |
-| https://github.com/pangeo-data/cmr | @robfatland's CMR-oriented notebooks; with golive and bootstrapping |
+| https://github.com/pangeo-data/cmr | @robfatland material on the NASA Common Metadata Repository |
+| https://github.com/robfatland/synoptic | Connecting the Regional Cabled Array ocean data to other resources (ARGO, MODIS, ...) |
+| https://github.com/robfatland/gallery | Gallery of geoscience examples |
+| https://github.com/robfatland/golive | Land ice velocity (golive) including bootstrapping xarray |
 | https://github.com/pshivraj/batl | Bio-Acoustic Transfer learning (@pshivraj) |
 | https://github.com/Unidata/python-workshop | Unidata Python Workshop material |
 | https://github.com/brian-rose/ClimateModeling_courseware | @brian-rose's climate modeling lecture notes |
@@ -40,4 +41,15 @@ Please tunnel into the sub-folders for organizing material.
 | https://the-turing-way.com | A lightly opinionated guide to reproducible data science |
 | https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin |
 | https://docs.google.com/spreadsheets/d/1mUd-MPCdhNw4fPcQFZmE8YPP1hmuR8VYbGrzyfuOMrY/edit#gid=0 | ESIP workshop feedback sheet |
+| https://github.com/kthyng/python4geosciences | Python for Geosciences course taught at Texas A&M |
+
+# Related resources
+
+* [Carpentry lesson guidelines](https://github.com/carpentries/lesson-example)
+* Request: A Grand Tour of xarray (Rob F's materials contribute to this idea; others?)
+* [Highly relevant related discussion](https://github.com/carpentries-incubator/geospatial-python/issues/1) courtesy @rbavery
+* [Geospatial Concepts Intro](https://datacarpentry.org/organization-geospatial/), R-oriented, Data Carpentry
+* [Raster and Vector Geo with R](https://datacarpentry.org/r-raster-vector-geospatial/), Data Carpentry
+* [UW Geohackweek learning repo](https://github.com/geohackweek/tutorial_contents); very extensive, Python-oriented
+  * Includes ML, raster, vector, visualization, numpy ndarrays
 

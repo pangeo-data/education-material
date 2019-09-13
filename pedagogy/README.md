@@ -1,37 +1,35 @@
-This README file is set in stone and none of its content is negotiable for all time. 
-
 # pedagogy
 
+## purpose
 
-## polemics
+This folder and its sub-folders are the accumulation zone for initial pangeo-ed content. "Process" work is more 
+for the `wg` working group folder parallel to this `pedagogy` folder.
 
-The 25,000 annual attendees at AGU (and similar geoscience conferences scaling down from there) imply a 
-global academic geoscience community of some 300,000 persons (say) with a commensurate non-academic 
-population. Of these precisely three know how to use the Python geoscience stack effectively: Joe Hamman, 
-Ryan Abernathy, and some middle-school kid living in Cleveland Heights. This leaves a potential learners pool
-of 599,997 people all of whom have unlimited spare time and enthusiasm for learning from the materials
-we produce here. And they are collectively responsible for saving planet earth for future human habitation.
-This page covers all the basics. 
+
+## community estimation
+
+AGU fall meeting attendance of (say) 25,000 attendees implies a global academic geoscience population of 
+perhaps 300,000 individuals and a commensurate non-academic population (industry, non-profit, military, 
+governmental). Let's say a million people total. Precisely three of these people know how to use the Python 
+geoscience stack effectively: Joe Hamman, Ryan Abernathy and a middle-school kid living in Boise Idaho. 
+This leaves a potential learners pool of 999,997 people. We have a lot of work before us.
 
 
 ### What is the Python geoscience stack? 
 
 
-Much like **pangeo** the **PGS** is as much a philosophy as it is code. It states in effect 'If you learn
-Python first then `numpy` will be easier to learn. If you learn `numpy` then `pandas` will be easier to 
-learn. And so forth through `widgets` for interactivity, `utm` for localized Cartesian coordinates, 
-`ipyleaflet` for creating interactive maps, `matplotlib` of course; and some other packages I can't think of at the moment. 
-Then and only then will it become relatively *easy* for you to learn `xarray` and thence `dask`. Finally
-once you have mastered dask you will be ready to use `pangeo` technology to analyze 12.4 Exabytes of 
-MODIS and Landsat data. (Oh and we almost forgot you also need to learn the `bash` shell and `git`
-and `vim` and `Jupyter notebooks` in parallel.)
+Much like **pangeo** the Python geoscience stack is code plus mindset: 
+'Learn Python so you can learn `numpy`. Learn `numpy` to then learn `pandas`. Learn `widgets` for interactivity, 
+learn `utm` to use localized Cartesian coordinates, add in `ipyleaflet` for creating interactive maps, and you 
+will need `matplotlib` of course; and some other packages I can't recall at the moment. Now you are prepared to 
+learn `xarray` and `dask`... and now finally you are ready to use `pangeo` to analyze 12 Exabytes of 
+MODIS and Landsat data. (Oh and sorry you also need to learn `bash` and `git` and `vim` and `Jupyter notebooks`.)
 
 
-Clearly this is nonsense. However a glimmer might be present as exemplified in this cautionary tale: 
-
-
-A certain senior scientist decided one day to learn `xarray` by simply writing a research paper on a Jupyter 
-notebook. He began with a NetCDF-CF file:
+Clearly nonsense... but this does give a sense of building data science skill (using Python) as an 
+involved process. What about attempting to circumvent all that? For example a certain scientist decided 
+to learn `xarray` by simply writing a research paper in a Jupyter notebook. His idea was to focus on the
+research and pick up the package details in passing. He began with a NetCDF-CF file:
 
 ```
 d=xr.open_dataset('./data.nc')
@@ -40,18 +38,13 @@ d
 
 He was pleased to find a torrent of text flooding across his screen:  Apparently simply naming the object caused it 
 to describe itself. It was then that his troubles began. He could not print out a few data values. He could not 
-generate plots... although Stack Overflow did provide a magic spell for plots; but then some data was clearly -9999.0
-and the resulting plots were un-watchable. Other segments of the data had value `NaN` so he spent several days 
+generate plots... and even when he figured that out some of the data seemed to be -9999.0 so the plots were 
+meaningless. Other segments of the data had value `NaN` and he spent several days 
 trying to `drop` the `NaN` values which produced copious arcane error messages... but still the NaNs stubbornly
-persisted. The senior scientist was torn: Should he dissolve in tears? Or should he become a vindictive super-villain? 
+persisted. The senior scientist was torn: Should he dissolve in tears? Become a vindictive super-villain? Retire? 
 
 
-Somewhere in between these two extremes is an optimal learning path for us to derive. To begin with we have in our
-toolbox the open tools that we use every day; so we are ahead of the game in this regard. We have **binder**, we
-have **colab**, and so on. So ok yeah but then what? We are still a long ways from being effective. 
-
-
-The only approach I'm aware of that has a chance of working includes at least the following factors:
+Somewhere in here is an optimal learning path for us to derive. Some ideas:
 
 
 - Read up on successful teaching and learning strategies; and copy success

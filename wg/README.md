@@ -1,5 +1,12 @@
 # POETs Working Group 
 
+## Call To Action
+
+
+* If you are Ryan Abernathy: Get the POETs started on the book. Where is it? Guidance or just go?
+* Else: Sign up for a resource review (see ***the table***) and then... wait for it... do the review!
+
+
 ## **P**angeo **O**utreach **E**ducation **T**raining 
 
 ### Statement of Purpose

@@ -36,12 +36,12 @@ Please tunnel into the sub-folders for organizing material.
 | https://github.com/brian-rose/ClimateModeling_courseware | @brian-rose's climate modeling lecture notes | ? |
 | https://github.com/cormorack/notebooks | _No longer exists?  Is private?_ | ? |
 | https://github.com/cormorack/whalebooks | _No longer exists?  Is private?_ | ? |
-| https://github.com/jcrist/anacondacon-2019-tutorial | Dask tutorial running on Pangeo Binder: Dataframes, Delayed and SickitLearn. Originaly developed by @mrocklin [here](https:/hub.com/mrocklin/pydata-nyc-2018-tutorial) |
-| http://cybertraining.umbc.edu/docs/UMBC_CyberTraininging_2019.pdf | Univ MD Baltimore County big data atmospheric science (flipped classroom) |
-| https://the-turing-way.com | A lightly opinionated guide to reproducible data science |
-| https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin |
-| https://docs.google.com/spreadsheets/d/1mUd-MPCdhNw4fPcQFZmE8YPP1hmuR8VYbGrzyfuOMrY/edit#gid=0 | ESIP workshop feedback sheet |
-| https://github.com/kthyng/python4geosciences | Python for Geosciences course taught at Texas A&M |
+| https://github.com/jcrist/anacondacon-2019-tutorial | Dask tutorial running on Pangeo Binder: Dataframes, Delayed and SickitLearn. Originaly developed by @mrocklin [here](https:/hub.com/mrocklin/pydata-nyc-2018-tutorial) | ? |
+| http://cybertraining.umbc.edu/docs/UMBC_CyberTraininging_2019.pdf | Univ MD Baltimore County big data atmospheric science (flipped classroom) | ? |
+| https://the-turing-way.com | A lightly opinionated guide to reproducible data science | ? |
+| https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/ | Syzygy courtesy Phil Austin | ? |
+| https://docs.google.com/spreadsheets/d/1mUd-MPCdhNw4fPcQFZmE8YPP1hmuR8VYbGrzyfuOMrY/edit#gid=0 | ESIP workshop feedback sheet | ? |
+| https://github.com/kthyng/python4geosciences | Python for Geosciences course taught at Texas A&M | ? |
 
 # Related resources
 

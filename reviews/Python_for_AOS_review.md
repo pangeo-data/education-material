@@ -2,14 +2,16 @@
 
 ## Atmos Ocean Launch
 
-* URL: [Data carpentry blog](https://datacarpentry.org/blog/2018/09/atmos-ocean-launch)
-* Reviewer: Rob Fatland
-* Review Summary: 
-* Context: [Data Carpentry](datacarpentry.org)
-* Author: [Damien Irving](https://drclimate.wordpress.com/who-is-dr-climate/)
-* Open in Binder: No
+URL: [Data carpentry blog](https://datacarpentry.org/blog/2018/09/atmos-ocean-launch) <BR>
+Suggested URL: [Carpentries Lab AOS Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
+Reviewer: Rob Fatland <BR>
+Review Summary: Awesome!  <BR>
+Context: [Data Carpentry](datacarpentry.org) <BR>
+Author: [Damien Irving](https://drclimate.wordpress.com/who-is-dr-climate/) <BR>
+Open in Binder: No <BR>
 
-* From the blog it takes a bit of care to navigate the diaspora of links; 
+
+* From the blog it takes a bit of care to navigate a diaspora of links; 
 for example [the github link](https://github.com/carpentrieslab/python-aos-lesson) provides a 
 [DC link](https://carpentrieslab.github.io/python-aos-lesson/)
 above a bunch of AMOS event links... perhaps place the DC link in the p-d/e-m table?

@@ -9,6 +9,7 @@ Review Summary: Awesome!  <BR>
 Context: [Data Carpentry](datacarpentry.org); specifically self-learning of ocean/atmosphere Python data science tools <BR>
 Author: [Damien Irving](https://drclimate.wordpress.com/who-is-dr-climate/) <BR>
 Open in Binder: No <BR>
+Pangeo-sympatico: Need an env with cmocean installed
 
 
 * From the blog it takes a bit of care to navigate a diaspora of links; 
@@ -20,4 +21,11 @@ possibly benefit from a Don't Panic message at the top as well; one that include
 'The main takeaway is a strategy: Start with `GeoViews` and work examples to bring the other elements of 
 the stack into focus.' ...or something along those lines that aligns with the workshop.
 * Suggest where `miniconda` will / will not be better than working with `conda`.
-* pangeo JHub does not seem to have `cmocean` installed
+* pangeo JHub does not seem to have `cmocean` installed; lesson has an excellent remark on `conda create` environments.
+
+
+```
+conda create -n pyaos-lesson jupyter xarray netCDF4 cartopy cmocean
+conda activate pyaos-lesson
+```
+

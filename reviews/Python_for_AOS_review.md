@@ -3,7 +3,7 @@
 ## Atmos Ocean Launch
 
 URL: [Data carpentry blog](https://datacarpentry.org/blog/2018/09/atmos-ocean-launch) <BR>
-Suggested URL: [Carpentries Lab AOS Lesson](https://carpentrieslab.github.io/python-aos-lesson/)
+Suggested URL: [Carpentries Lab AOS Lesson](https://carpentrieslab.github.io/python-aos-lesson/) <BR>
 Reviewer: Rob Fatland <BR>
 Review Summary: Awesome!  <BR>
 Context: [Data Carpentry](datacarpentry.org) <BR>

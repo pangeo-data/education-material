@@ -6,7 +6,7 @@ URL: [Data carpentry blog](https://datacarpentry.org/blog/2018/09/atmos-ocean-la
 Suggested URL: [Carpentries Lab AOS Lesson](https://carpentrieslab.github.io/python-aos-lesson/) <BR>
 Reviewer: Rob Fatland <BR>
 Review Summary: Awesome!  <BR>
-Context: [Data Carpentry](datacarpentry.org) <BR>
+Context: [Data Carpentry](datacarpentry.org); specifically self-learning of ocean/atmosphere Python data science tools <BR>
 Author: [Damien Irving](https://drclimate.wordpress.com/who-is-dr-climate/) <BR>
 Open in Binder: No <BR>
 

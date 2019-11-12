@@ -1,11 +1,18 @@
 Hmmm... what does "A.R.D." stand for?
 
+
+In all that ensues: The central idea of pangeo education is: Don't learn magic spells; rather: learn to debug.
+This is to avoid the frustration and lost time when those magic spells inevitably don't work.
+
+
 # Learning Tracks
 
-- Deployment Engineer: You want to build and manage a Pangeo instance
-- Research Team Lead: You want to lead your group in using a Pangeo instance for your research
-- Researcher: You want to use a Pangeo instance for your research
-- Data Publisher: You want to create an ***analysis-ready*** dataset
+
+- **Deployment Engineer**: You want to build and manage a Pangeo instance
+- **Research Team Lead**: You want to lead your group in using a Pangeo instance for your research
+- **Researcher**: You want to use a Pangeo instance for your research
+- **Data Publisher**: You want to create an ***analysis-ready*** dataset
+
 
 ## First things first
 

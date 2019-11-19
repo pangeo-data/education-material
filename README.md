@@ -32,7 +32,7 @@ Please tunnel into the sub-folders for organizing material.
 - [Bio-Acoustic Transfer learning (@pshivraj)](https://github.com/pshivraj/batl), reviewed by Sarah Barnes, Derya Gumustel 
 - [Unidata Python Workshop material](https://github.com/Unidata/python-workshop) 
 - [@brian-rose's climate modeling lecture notes](https://github.com/brian-rose/ClimateModeling_courseware)
-- [Dask tutorial running on Pangeo Binder: Dataframes, Delayed and Scikit-learn](https://github.com/jcrist/anacondacon-2019-tutorial). Originaly developed by @mrocklin [here](https:/hub.com/mrocklin/pydata-nyc-2018-tutorial) 
+- [Dask tutorial running on Pangeo Binder: Dataframes, Delayed and Scikit-learn](https://github.com/jcrist/anacondacon-2019-tutorial), originaly developed by @mrocklin [here](https:/hub.com/mrocklin/pydata-nyc-2018-tutorial) 
 - [Univ MD Baltimore County big data atmospheric science (flipped classroom)](http://cybertraining.umbc.edu/docs/UMBC_CyberTraininging_2019.pdf)
 - [A lightly opinionated guide to reproducible data science](https://the-turing-way.com) 
 - [Syzygy courtesy Phil Austin](https://www.computecanada.ca/featured/compute-canada-and-pims-launch-jupyter-service-for-researchers/) 

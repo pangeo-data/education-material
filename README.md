@@ -19,7 +19,7 @@ This repository is for pointers and descriptions of existing educational materia
 platform, software ecosystem, deployments, and related technology[.](http://github.com/robfatland/ops) 
 Please tunnel into the sub-folders for organizing material. 
 
-- [Data Carpentry lessons for atmosphere and ocean scientists (@DamienIrving)](https://datacarpentry.org/blog/2018/09/atmos-ocean-launch), reviewed by 
+- [Data Carpentry lessons for atmosphere and ocean scientists (@DamienIrving)](https://datacarpentry.org/blog/2018/09/atmos-ocean-launch), reviewed by  Rob F 
 - [Pangeo Tutorial for the AGU 2018 meeting](https://github.com/pangeo-data/pangeo-tutorial-agu-2018) 
 - [Pangeo Tutorial for the NCAR Software Engineering Assembly Workshop 2018](https://github.com/pangeo-data/pangeo-tutorial-sea-2018) 
 - [Pangeo Notebook Gallery with various simple or real science examples](https://github.com/pangeo-data/pangeo-example-notebooks)

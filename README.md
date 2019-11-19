@@ -51,6 +51,5 @@ Please tunnel into the sub-folders for organizing material.
 * [Highly relevant related discussion](https://github.com/carpentries-incubator/geospatial-python/issues/1) courtesy @rbavery
 * [Geospatial Concepts Intro](https://datacarpentry.org/organization-geospatial/), R-oriented, Data Carpentry
 * [Raster and Vector Geo with R](https://datacarpentry.org/r-raster-vector-geospatial/), Data Carpentry
-* [UW Geohackweek learning repo](https://github.com/geohackweek/tutorial_contents); very extensive, Python-oriented
-  * Includes ML, raster, vector, visualization, numpy ndarrays
+* [UW Geohackweek learning repo](https://github.com/geohackweek/tutorial_contents) - very extensive, Python-oriented, includes ML, raster, vector, visualization, numpy ndarrays
 

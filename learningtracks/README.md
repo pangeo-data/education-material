@@ -1,11 +1,16 @@
-Hmmm... what does "A.R.D." stand for?
+### NTS
 
-
-In all that ensues: The central idea of pangeo education is: Don't learn magic spells; rather: learn to debug.
-This is to avoid the frustration and lost time when those magic spells inevitably don't work.
+- Hmmm... what does "A.R.D." stand for? Ryan probably knows; or Joe knows; Rob forgets
+- When you return to this page: Be sure to scan it *first* (and notice *links*); don't just dive in and start typing stuff. Please.
+- Message this in all that ensues: The central idea of pangeo education is *anti - magic spell thinking*. Rather: Make the time to learn to debug. Magic spells inevitably don't work at some point.
+- We really need a vis heirarchy... 
+  - and a one-stop shop of matplotlib detailed examples if it survives the cut
 
 
 # Learning Tracks
+
+
+Pangeo POETs support four project participant roles: 
 
 
 - **Deployment Engineer**: You want to build and manage a Pangeo instance
@@ -15,6 +20,7 @@ This is to avoid the frustration and lost time when those magic spells inevitabl
 
 
 ## First things first
+
 
 Before diving into the pangeo-provided learning resources below: We want you to know what 
 tools and skills are going to be essential to your role that *aren't* provided by pangeo. 
@@ -32,12 +38,15 @@ domains.
 ## Deployment Engineer: You want to build and manage a Pangeo instance
 
 
-So you are going to be a DevOps engineer for a running Pangeo instance...
+So you are going to be a DevOps engineer building and operating a Pangeo instance...
 
 
 * Zero2Pangeo on Kubernetes Part 1: Basics
 * Zero2Pangeo on Kubernetes Part 2: Expansion options, considerations, pointers
 * Resource management considerations including cost
+
+
+Probably need to add something in here about binder to the expansion options.
 
 
 ## Research Team Lead: You want to lead your group in using a Pangeo instance for your research
@@ -53,11 +62,14 @@ So you and your research team members are going to be working on a Pangeo instan
 
 ## Researcher: You want to use a Pangeo instance for your research
 
+
 So you are interested in using Python to analyze and interpret data; and you are ok with 
 doing so in a *pangeistic* manner. Awesome, welcome to the great game. You'll need good
 familiarity with the following:
 
+
 * the xarray data model
+  * [What about this content?](https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f)
 * distributed dask: Laziness, elasticity, `.load()`
 * binder for binder Users
 * how to write code and work Pangeistically for Pangeo Users

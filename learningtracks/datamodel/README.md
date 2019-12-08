@@ -1,4 +1,8 @@
+[Dive right in head first!](https://github.com/pangeo-data/pangeo-tutorial)
+
+
 # Introduction
+
 
 Our objective is to optimize scientist skill. We present here a 
 picture of data organization in the geospatial research ecosystem. This picture depends on a set
@@ -14,14 +18,18 @@ We focus here on the latter, where [`NetCDF`](https://www.unidata.ucar.edu/softw
 refers concretely to a data file format.
 
 
-## fast-track bootstrap plan
+## fast-track bootstrap plans
 
-An immersive sequence, much more in-depth:
+
+[Dive right in head first!](https://github.com/pangeo-data/pangeo-tutorial)
+
+
+And for a more thorough and immersive sequence:
 
 * Learn Python
-* Read the first three chapters of 
-[Jake's book](http://xarray.pydata.org/en/stable/why-xarray.html)
-(chapters 4 and 5 are great as well)
+* Work through the first three chapters of 
+[Jake's book](https://tanthiamhuat.files.wordpress.com/2018/04/pythondatasciencehandbook.pdf)
+(chapters 4 and 5 are great as well) (there is a better link to this btw)
 * Read the xarray online documentation
 * Read the NetCDF online documentation
 * Start up a binder notebook from [here] (link needed). 

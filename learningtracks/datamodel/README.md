@@ -1,6 +1,6 @@
 # Introduction
 
-Our *objective* is to optimize scientist skill. We present here a 
+Our objective is to optimize scientist skill. We present here a 
 picture of data organization in the geospatial research ecosystem. This picture depends on a set
 of interrelated *data models* which lead to data *access methods*.  
 

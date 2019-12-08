@@ -1,4 +1,4 @@
-[Dive right in head first!](https://github.com/pangeo-data/pangeo-tutorial)
+[AGU 2019 Tutorial: Dive in head first!](https://github.com/pangeo-data/pangeo-tutorial)
 
 
 # Introduction
@@ -21,10 +21,10 @@ refers concretely to a data file format.
 ## fast-track bootstrap plans
 
 
-[Dive right in head first!](https://github.com/pangeo-data/pangeo-tutorial)
+To just get going click the "open in binder" link on the [AGU 2019 Tutorial](https://github.com/pangeo-data/pangeo-tutorial)
+page. This opens a functional environment in your browser and we suggest you begin with the **geopandas** notebook. 
 
-
-And for a more thorough and immersive sequence:
+For a more thorough and immersive process:
 
 * Learn Python
 * Work through the first three chapters of 

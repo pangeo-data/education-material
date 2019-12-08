@@ -68,14 +68,48 @@ profiler dataset that had the dimensions Time and Depth, or optical data with a 
 becomes essential.
 
 
-### Rob has a follow-up question
+### Rob questions on approach
 
+#### Documentation versus Goal-oriented narratives
+
+
+Delete this probably; but my grumble is that documentation is often written by the people who wrote the 
+code to present "how to use such and such method" in the correct Python formalism. It can be difficult to 
+find a narrative that is on the scientists' side, i.e. "Suppose I want to get the mean and standard deviation
+of 20 days of data between 50 and 60 meters depth where there may be NAN values..." 
+The scientist thought process is ***nothing but statements like this***. Documentation 
+filled with inscrutable terminology (`**kwargs` comes
+to mind) comes across as "you can't get there from here". 
+
+
+#### Per Seagrinch's remarks above: 
 
 I have been working with OOI profiler fluorometer data where `obs` is a default `dimension` 
 that can quickly be swapped for `time`: `ds = ds.swap_dims({'obs':'time'})`. This makes sense to me since
 time is a monotonic coordinate.  `int_ctd_pressure` is a second `coordinate` equivalent to profiler depth, 
 conceptually a dimension of the data. Under what circumstances should this be added as another `dimension`?
 
+#### More general questions: From working with two sorts of data...
+
+* Sensor time-series data streams in a Dataset (from *in situ* profilers from the OOI Regional Cable Array)
+* GOLIVE land-ice motion data derived from LANDSAT by Fahnestock and others 
+  * Challenging dataset owing to both volume of results (LANDSAT scale) and sparsity of good data therein
+  * ITSLIVE the successor is built into MEASURES and might be better formalized
+
+How does a new person learn and internalize skills? 
+
+I have specific points of confusion that would be nice to organize into an instructive narrative:
+
+* Getting away from for-loops, data access methods... how to use? 
+  * `.sel`, `.isel`, `.where`, `.slice`, `.groupby` etcetera
+* Looking at representative data and answering quality questions
+  * How much of this is good data? How much is NAN? How to replace or work with NANs? 
+  * How to derive useful colormap mapping ranges (`norm` in matplotlib for example) 
+* datetime64 (pandas I think) versus datatime (numpy I think)
+  * how to create out of thin air
+  * how to create from the Dataset
+  * manipulating intervals
+  * `.values`
 
 ## The data zoo
 
@@ -90,6 +124,10 @@ little initial effort to organize it, kicking that task down the street.
 * [NetCDF data model](https://www.unidata.ucar.edu/software/netcdf/docs/netcdf_data_model.html)
 * [xarray](http://xarray.pydata.org/en/stable/why-xarray.html)
 * [xarray data structures](http://xarray.pydata.org/en/stable/data-structures.html)
+* [zarr files](https://zarr.readthedocs.io/en/stable/)
+* [Intake/STAC](https://intake-stac.readthedocs.io/en/latest/)
+  * [Pangeo on Intake-STAC](https://github.com/pangeo-data/intake-stac)
+* [Dask](https://dask.org/)
 
 
 ### NetCDF
@@ -101,7 +139,7 @@ little initial effort to organize it, kicking that task down the street.
 3. scientific feature type layer: specific types of data such as grids, radial, and point data
 
 
-### Python
+### Pythonicity and Pangeisticality
 
 #### Basic types
 
@@ -111,11 +149,16 @@ little initial effort to organize it, kicking that task down the street.
 
 #### pandas Dataframes
 
+Jake chapter 3 I think.
+
 #### from pandas to geopandas
 
 #### from geopandas to xarray
-http://xarray.pydata.org/en/stable/data-structures.html
+
+Reiterating the [xarray data structure link](http://xarray.pydata.org/en/stable/data-structures.html)
 
 #### from xarray to dask
+
+[dask](https://dask.org/
 
 #### from dask to 

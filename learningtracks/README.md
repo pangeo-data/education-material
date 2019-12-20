@@ -5,6 +5,7 @@
 - Message this in all that ensues: The central idea of pangeo education is *anti - magic spell thinking*. Rather: Make the time to learn to debug. Magic spells inevitably don't work at some point.
 - We really need a vis heirarchy... 
   - and a one-stop shop of matplotlib detailed examples if it survives the cut
+- Yuvi is organizing a *matrix* of facets and levels of JupyterHub structure -- separate document -- that would inform what we are doing here for the *Builder* role and maybe the *Data Publisher* role. 
 
 
 # Learning Tracks
@@ -38,7 +39,8 @@ domains.
 ## Deployment Engineer: You want to build and manage a Pangeo instance
 
 
-So you are going to be a DevOps engineer building and operating a Pangeo instance...
+So you are going to be a DevOps engineer building and operating a Pangeo instance... or some other
+incarnation of a **Builder**. (See note above on Yuvi's project helping articulate this.)
 
 
 * Zero2Pangeo on Kubernetes Part 1: Basics

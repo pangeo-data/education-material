@@ -47,7 +47,7 @@ Please tunnel into the sub-folders for organizing material.
 # Related resources
 
 * [Carpentry lesson guidelines](https://github.com/carpentries/lesson-example)
-* Request: A Grand Tour of xarray (Rob F's materials contribute to this idea; others?)
+* Request: A Grand Tour of xarray ([Rob F's materials](https://github.com/robfatland/chlorophyll) contribute to this idea; others?)
 * [Highly relevant related discussion](https://github.com/carpentries-incubator/geospatial-python/issues/1) courtesy @rbavery
 * [Geospatial Concepts Intro](https://datacarpentry.org/organization-geospatial/), R-oriented, Data Carpentry
 * [Raster and Vector Geo with R](https://datacarpentry.org/r-raster-vector-geospatial/), Data Carpentry

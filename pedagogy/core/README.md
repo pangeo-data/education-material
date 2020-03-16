@@ -1,3 +1,6 @@
+This was written by Rob a few months back (in 2019) and is very NTS-y; so it really needs tidying up.
+
+
 # core
 
 Ideas and notes on learning Python for geoscience... what is essential? 

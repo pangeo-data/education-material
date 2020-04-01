@@ -22,9 +22,6 @@ Multi-spectral (16 ch) geostationary imaging cameras.
 **ERS-1/2**: 
 *years*. *agency*. *access*.
 
-**HIMAWARI**: 
-*years*. *agency*. *access*.
-
 **JERS**
 *years*. *agency*. *access*.
 

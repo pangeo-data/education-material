@@ -20,13 +20,16 @@ one image / ten minutes at >= 500m resolution over the full disk of the earth. (
 
 **ARGO**: 
 [Global array of drifting - profiling floats](https://en.wikipedia.org/wiki/Argo_(oceanography)).
-*years*. *agency*. *access*.
+*years*. *agency*. Download data: Coriolis (browser) or [argopy](https://github.com/euroargodev/argopy) (API).
 
 **AVHRR**
 
 **CMIP**:
 [Coupled Model Intercomparison Project](https://en.wikipedia.org/wiki/Coupled_Model_Intercomparison_Project).
 *years*. *agency*. *access*.
+
+**ECCO**: ST ocean circulation. 
+*years*. JPL (?). *access*.
 
 **ERS-1/2**: 
 *years*. *agency*. *access*.
@@ -96,3 +99,4 @@ Multiple-array observatory:
 * NASA:
 * NOAA:
 * SAR: Synthetic Aperture Radar (10 meter resolution, 100km x 100km extent, millimeter-scale land surface deformation detection)
+* ST: Spatio-temporal i.e. having some spatial extent and dynamical in time

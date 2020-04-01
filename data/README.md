@@ -14,7 +14,8 @@ Jumble to be sorted out...: SPOT, IKONOS, ASTER, Quickbird (blech commercial), t
 [Advanced Baseline Imager](https://en.wikipedia.org/wiki/GOES-16#Advanced_Baseline_Imager)
 / 
 [Advanced Himawari Imager](https://en.wikipedia.org/wiki/Himawari_8).
-Multi-spectral (16 ch) geostationary imaging cameras. 
+Multi-spectral (16 ch) geostationary imaging cameras; 
+one image / ten minutes at >= 500m resolution over the full disk of the earth. (~500 GB / day?)
 *years*. NASA/NOAA and JMA. *access*.
 
 **ARGO**: 

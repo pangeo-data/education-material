@@ -3,6 +3,9 @@ So this is a reference for datasets as a resource document. It is not a polished
 **NAME**: Name expansion / briefly. Years. Agency. Data access path.
 Some entries might rate sub-pages. This reverses DAAC > Dataset ordering. Glossary appended.
 
+Proof of wheel re-invention: 
+[Wikipedia on remote sensing satellite and data overview](https://en.wikipedia.org/wiki/Remote_sensing_satellite_and_data_overview)
+
 
 **ABI/AHI**: 
 [Advanced Baseline Imager](https://en.wikipedia.org/wiki/GOES-16#Advanced_Baseline_Imager)
@@ -14,6 +17,8 @@ Multi-spectral (16 ch) geostationary imaging cameras.
 **ARGO**: 
 [Global array of drifting - profiling floats](https://en.wikipedia.org/wiki/Argo_(oceanography)).
 *years*. *agency*. *access*.
+
+**AVHRR**
 
 **CMIP**:
 [Coupled Model Intercomparison Project](https://en.wikipedia.org/wiki/Coupled_Model_Intercomparison_Project).
@@ -27,6 +32,8 @@ Multi-spectral (16 ch) geostationary imaging cameras.
 
 **LANDSAT**: 
 *years*. *agency*. *access*.
+
+**LIDAR** of some sort
 
 **MODIS**
 *years*. *agency*. *access*.
@@ -65,6 +72,9 @@ Multiple-array observatory:
 *1978*. NASA-JPL-Caltech. *access*.
 
 **SENTINEL**:
+*years*. *agency*. *access*.
+
+**TOPEX/POSEIDON**:
 *years*. *agency*. *access*.
 
 **TRMM**: Tropical Rainfall Measurement Missions. Includes latent heat atmos profile.

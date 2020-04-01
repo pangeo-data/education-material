@@ -39,6 +39,10 @@ Multi-spectral (16 ch) geostationary imaging cameras.
 [National Aerial Photography Program](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-aerial-photography-national-aerial-photography-program-napp)
 *years*. *agency*. *access*.
 
+**NEPTUNE**:
+[Ocean Networks Canada cabled observatory](link).
+*years*. *agency*. *access*.
+
 **NISAR**: 
 [NASA/ISRO multi-frequency SAR](https://en.wikipedia.org/wiki/NISAR_(satellite)).
 *Pending: 2022 launch*. **NASA**, **ISRO**. *access*.
@@ -49,8 +53,7 @@ Multiple-array observatory:
 [Pioneer](link) (Woods Hole), 
 [Endurance](link) (Oregon State University),
 [Global](link) (agency), 
-[Regional](https://interactiveoceans.washington.edu/) (UW), 
-[NEPTUNE](link) (agency)
+[Regional Cabled Array](https://interactiveoceans.washington.edu/) (UW)
 .
 *years*. NSF. *access*.
 

@@ -3,8 +3,11 @@ So this is a reference for datasets as a resource document. It is not a polished
 **NAME**: Name expansion / briefly. Years. Agency. Data access path.
 Some entries might rate sub-pages. This reverses DAAC > Dataset ordering. Glossary appended.
 
-Proof of wheel re-invention: 
-[Wikipedia on remote sensing satellite and data overview](https://en.wikipedia.org/wiki/Remote_sensing_satellite_and_data_overview)
+Wheel re-invention: 
+[Wikipedia remote sensing satellite / data](https://en.wikipedia.org/wiki/Remote_sensing_satellite_and_data_overview)
+(except this article is a stub).
+
+Jumble to be sorted out...: SPOT, IKONOS, ASTER, Quickbird (blech commercial), that spy mission that Bob got results from (Highjump???), all of Morin's stuff, AIRSAR, scan all the DAACs. Deal with derived products and software. Deal with high resolution spectral methods that operate on in situ or lab scales, for example various flavors of MS and related, flow cytometers, etc).
 
 
 **ABI/AHI**: 
@@ -25,6 +28,9 @@ Multi-spectral (16 ch) geostationary imaging cameras.
 *years*. *agency*. *access*.
 
 **ERS-1/2**: 
+*years*. *agency*. *access*.
+
+**GOES**: Somewhat redundant to **ABI** entry.
 *years*. *agency*. *access*.
 
 **JERS**
@@ -65,6 +71,9 @@ Multiple-array observatory:
 *years*. NSF. *access*.
 
 **PLANET**:
+*years*. *agency*. *access*.
+
+**RADARSAT**:
 *years*. *agency*. *access*.
 
 **SEASAT**:

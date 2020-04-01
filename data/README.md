@@ -21,6 +21,7 @@ one image / ten minutes at >= 500m resolution over the full disk of the earth. (
 **ARGO**: 
 [Global array of drifting - profiling floats](https://en.wikipedia.org/wiki/Argo_(oceanography)).
 *years*. *agency*. Download data: Coriolis (browser) or [argopy](https://github.com/euroargodev/argopy) (API).
+See also [this issue](https://discourse.pangeo.io/t/in-situ-ocean-observation-data-where-how/356).
 
 **AVHRR**
 

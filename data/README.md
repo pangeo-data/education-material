@@ -1,18 +1,18 @@
 Rob started this page on April 1 2020 (honest) motivated by Pangeistas discussions on data resources. 
 So this is a reference for datasets as a resource document. It is not a polished product. Entry format is 
-**NAME**: Name expansion. Years. Agency/link. Availability / access story.
-Some entries might rate sub-pages. This reverses the DAAC > Dataset ordering.
+**NAME**: Name expansion / briefly. Years. Agency. Data access path.
+Some entries might rate sub-pages. This reverses DAAC > Dataset ordering. Glossary appended.
 
 
 **ABI/AHI**: 
 [Advanced Baseline Imager](https://en.wikipedia.org/wiki/GOES-16#Advanced_Baseline_Imager)
 / 
 [Advanced Himawari Imager](https://en.wikipedia.org/wiki/Himawari_8).
-NASA/NOAA and JMA. Multi-spectral (16 ch) geostationary imaging cameras. 
-*years*. *agency*. *access*.
+Multi-spectral (16 ch) geostationary imaging cameras. 
+*years*. NASA/NOAA and JMA. *access*.
 
 **ARGO**: 
-[Global array of drifting / profiling floats](https://en.wikipedia.org/wiki/Argo_(oceanography)).
+[Global array of drifting - profiling floats](https://en.wikipedia.org/wiki/Argo_(oceanography)).
 *years*. *agency*. *access*.
 
 **CMIP**:

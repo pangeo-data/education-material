@@ -1,14 +1,20 @@
-## How do I copy data from an S3 bucket in one account to an S3 bucket in a different account?
+## AWS Copy S3 bucket (account A) to S3 bucket (account B)
 
-Look it up online and follow the directions carefully. I'm logging the process here out of habit; maybe this is useful.
+Suggestion: You can look this up online and follow the directions carefully. 
+I'm logging the process here in case you are not an AWS pro and could use some extra context. 
 
 * The source account is **A**, the destination account is **B**. I will use A and B to represent respective 12 digit account numbers. 
+* I start by assuming the account **A** bucket exists but the **B** bucket does not. 
+* This procedure makes heavy use of AWS *Policies*. 
+  * These are JSON documents that you staple to a User or to a Role or to a Resource. 
+* In this case I will staple a "permission to copy" Policy to a User in account **B**.
+* I will staple a Policy "ok for content to be copied from me" to the S3 bucket in account **A**. 
+* Then it is just a matter of running an aws command line copy with the correct arguments
+* Need to note the 12-digit account numbers
+  * A = 123456789012
+  * B = 210987654321
 
-A = 783380859522
-
-B = 879605964811
-
-Notice that these account numbers can appear in public.
+Notice that these account numbers can appear in public; but these are made up. 
 
 * I need the source bucket name, let's use `tommy`
 * I need to create a destination bucket in **B** with a different name, will use `tommy-b`

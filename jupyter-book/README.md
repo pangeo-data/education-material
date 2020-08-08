@@ -17,10 +17,14 @@ In my Pangeo pod
 git clone https://github.com/pangeo-data/jupyter-ocean
 ```
 
-I proceeded to edit this folder: Added notebook `chlorophyll.ipynb`. Edited it down to a reasonably small size; 
-put in language oriented towards middle school; added some content files (mp3, mp4, jpg).
+I proceeded to edit this folder
 
+- Added notebook `chlorophyll.ipynb`
+  - Edits --> small size --> refers to some local files (mp3 etc)
+  - oriented towards middle school
+  - The Python code here attempts to install the ocean color map library cmocean; and some other tricky stuff
+- synch back to GitHub via `git push`
+- Back on GitHub in the jupyter-ocean repo:
+  - Created a `_toc.yml` file with a single entry for the chlorophyll notebook.
 
-Interesting point: The Python code here attempts to install the ocean color map library cmocean; and so on. 
-Dunno if this will work out.   
 

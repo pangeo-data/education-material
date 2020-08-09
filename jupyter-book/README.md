@@ -5,7 +5,14 @@ Logging experience August 4, 2020.
 - [Jupyter-Earth case study](https://github.com/pangeo-data/jupyter-earth#build-the-documentation) 
 - [beta.jupyterbook.org](https://beta.jupyterbook.org/start/overview.html)
 - install with `pip install -U jupyter-book` in my Pangeo JupyterLab instance: check!
-  - Returning to the environment: Still installed: check!
+  - Returning to the environment: Re-install seems to check that everything is ok...
+  - However running `jupyter-book create tmpbook` did not work so possible bug
+  
+  
+> Possible bug: Does installing jupyter-book and then stopping the server and then returning create a "Wha???" situation? 
+> Reproduce this by running `jupyter-book create tmpbook` after the install; and then shut down the server, come back later, 
+> and try `jupyter-book create tmpbook1` to see what happens. 
+  
   
 Now we need a folder containing the markdown / notebook files; plus table of contents and (optional) configuration YAML files. 
 I'm going to do this as a repository in `pangeo-data` following the jupyter-earth model; so jupyter-ocean. Choosing not to 
